@@ -1,0 +1,19 @@
+---
+title: "Frequently Asked Questions"
+faq:
+  - question: "Q. What is photoveda?"
+    answer: >
+          A photo retouching or image editor 
+  - question: "Q. Can you edit any photo or image ?"
+    answer: >
+          Yes.
+  - question: "Q. Do you support all file types?"
+    answer: >
+          Yes. It depends on the backend.
+  - question: "Q. What is the price?"
+    answer: >
+          Details on [pricing](/pricing.html) page
+  - question: "Q. Can I use this project for free ?"
+    answer: >
+          Yes. 
+---

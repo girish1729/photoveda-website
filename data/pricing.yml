@@ -1,0 +1,23 @@
+---
+title: "Pricing details for progress-up"
+subtitle: >
+          Photoveda is free. For large projects you may wish to buy a
+monthl subscription
+buttonTarget: "contact"
+itemPrices:
+  - package: Personal edition
+    description: >
+             Personal edition for one user
+    price: 9.99$
+    badge: 
+  - package: Team license
+    description: >
+                Team edition upto 20 people
+    price: 29.99$
+    badge: popular
+  - package: Business license
+    description: >
+            Business license for unlimited use
+    price: 299$
+    badge:
+---

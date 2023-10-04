@@ -1,0 +1,25 @@
+{
+  "name": "progress-up.live",
+  "version": "0.0.20",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "postcss styles.css -o static/css/page.css && hugo server",
+    "deploy": "postcss styles.css -o static/css/page.css && hugo --gc --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girish1729/progress-up.git"
+  },
+  "author": "girish@spamcheetah.com",
+  "license": "MIT",
+  "homepage": "https://progress-up.live",
+  "devDependencies": {
+    "autoprefixer": "*",
+    "postcss-cli": "*",
+    "tailwindcss": "*"
+  },
+  "dependencies": {
+    "lightgallery": "^2.7.0"
+  }
+}

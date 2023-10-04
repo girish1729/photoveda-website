@@ -1,0 +1,37 @@
+baseurl = "/"
+languageCode = "en"
+publishdir = "public"
+canonifyUrls = true
+enableEmoji = true
+theme = "hugo-landing-page"
+disableKinds = ["RSS","taxonomy","taxonomyTerm"] 
+title = "photoveda -  Image editor" 
+[markup.goldmark.renderer]
+    unsafe = true
+
+[author]
+    name = "Girish Venkatachalam"
+    email = "girish@photoveda.pro"
+[params]
+    description = "Photoveda - image editor" 
+    images =  ["images/screenshots/photodefault.png"]
+[[params.headermenu]]
+   link = "/screenshots"
+   title = "Screenshots"
+[[params.headermenu]]
+   link = "/docs"
+   title = "Getting started"
+[[params.headermenu]]
+   link = "/demo"
+   title = "Demo"
+[[params.headermenu]]
+   link = "/blog"
+   title = "Blog"
+[[params.headermenu]]
+  link = "/pricing"
+  title = "Pricing"
+
+
+[[params.social]]
+    title = "Twitter"
+    url = "https://twitter.com/girish1729" 
