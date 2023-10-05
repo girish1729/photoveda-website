@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <link rel="stylesheet"  href="/css/normalize.min.css">
+   {{ partial "navbar.html" . }}
+
+   <h2 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">{{ .Title }}</h2>
+
+{{ partial "hero.html" . }}
+
+{{ partial "card-2col.html" . }}
+{{ partial "cta-3.html" . }}
+{{ partial "features.html" . }}
+
+    {{ end }}

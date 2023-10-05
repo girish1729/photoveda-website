@@ -3,14 +3,13 @@
     {{ partial "navbar.html" . }}
   <h1>{{.Title}}</h1>
  <div class="w-full flex flex-col justify-center items-center">
-   {{ range .Pages }}
+   {{ range ( where .Pages "Type" "blog" ) }}
     <section class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
 <a class='no-underline' href="{{ .Permalink }}" title="{{ .Title }}">
 	<h2 class="text-3xl no-underline"> {{ .Title }}</h2>
-	<img src="{{ .Params.featureImage }}" alt="{{ .RelPermalink }}" />
-		<span class="date">{{.Date.Format "2 Jan 2006"}}</a>
      </section>
     {{ end }}
+	<a href="/blog">Back to blogs</a>
  </div>
 {{ end }}
 

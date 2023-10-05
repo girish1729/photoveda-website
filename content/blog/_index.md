@@ -1,4 +1,4 @@
 ---
-title: "Articles by Girish"
+title: "Photoveda tutorials and demos"
 ---
 
