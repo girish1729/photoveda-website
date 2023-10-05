@@ -22,8 +22,8 @@ title = "photoveda -  Image editor"
    link = "/api-docs"
    title = "API documentation"
 [[params.headermenu]]
-   link = "/demo"
-   title = "Demo"
+   link = "/join-waitlist"
+   title = "Join waitlist"
 [[params.headermenu]]
    link = "/blog"
    title = "Blog"
