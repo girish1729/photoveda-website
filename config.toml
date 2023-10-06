@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://photoveda.pro"
 languageCode = "en"
 publishdir = "public"
 canonifyUrls = true
