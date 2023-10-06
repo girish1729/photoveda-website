@@ -1,0 +1,112 @@
+{{ define "main" }}
+  <link rel="stylesheet"  href="/css/normalize.min.css">
+   {{ partial "navbar.html" . }}
+
+<section>
+   <h2 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">{{ .Title }}</h2>
+
+
+<!-- Container for demo purpose -->
+<div class="container my-24 mx-auto md:px-6">
+  <!-- Section: Design Block -->
+  <section class="mb-32">
+    <h2 class="mb-16 text-center text-3xl font-bold">
+      Frequently asked questions
+    </h2>
+
+    <div class="grid gap-6 lg:grid-cols-3">
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">What is photoveda?</p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+          A photo editor or image retouching tool. Supports 40+ filters
+and you can edit any image in any format within minutes.
+        </p>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">Is it free?</p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+	It is free for first 25 days per day. You have paid options in
+case you want to edit more photos/images per day.
+
+        </p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+	Paid plans are <a href="/pricing.html">here</a>
+        </p>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold"> Does it work in browser?
+        </p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+	Yes it is a Chrome plugin.
+        </p>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">
+         Can it do image filters?
+        </p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+	It supports upto 40 filters.
+        </p>
+	<ul>
+<li>Fish eye effect </li>
+ <li>Miniature faking </li>
+ <li>Tilt lens </li>
+ <li>Motion blur </li>
+ <li>radial blur </li>
+ <li>Mirrored blur </li>
+ <li>Linear blur </li>
+ <li>Polaroid </li>
+ <li>Sepia </li>
+ <li>Kodachrome </li>
+ <li>Contrast </li>
+ <li>Brightness </li>
+ <li>Greyscale </li>
+ <li>Brownie </li>
+ <li>Vintage </li>
+ <li>Technicolor </li>
+ <li>Pixelate </li>
+ <li>Invert </li>
+ <li>Blur </li>
+ <li>Sharpen </li>
+ <li>Emboss </li>
+ <li>RemoveColor </li>
+ <li>BlacknWhite </li>
+ <li>Vibrance </li>
+ <li>BlendColor </li>
+ <li>BlendImage </li>
+ <li>HueRotate </li>
+ <li>Resize </li>
+ <li>Saturation </li>
+ <li>Gamma </li>
+
+	</ul>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">Can I upgrade anytime?</p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+		Yes. You can upgrade by paying with Stripe.
+        </p>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">
+          Will it work on the phone?
+        </p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+		Not now. We will support in future.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+</div>
+<!-- Container for demo purpose -->
+
+</section>
+
+
+{{ end }}
