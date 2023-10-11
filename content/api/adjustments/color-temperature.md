@@ -1,16 +1,64 @@
 ---
-title: "How to adjust an image?"
-date: "2023-02-16T15:21:54+05:30"
-featureImage: "blog/image-adjustments.jpg"
+title: "Color temperature API"
+date: "2023-10-10 00:00:01"
+layout: "adjust-api"
 draft: false
-weight: 3
+description: "Adjust your image color temperature"
 ---
 
-# Color temperature
+[Get API Key](/api/developer-key)
 
+## Adjust color temperature
 
-It is used for highly responsive web applications that use JSX code for
-efficiency and fewer DOM updates.
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| name      | String | Type of work |
+| gamma      | Integer | Gamma value|
 
-[Back to adjustments blog](/blog/adjustments)
+### Sample code
+
+#### Curl
+
+```bash
+curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
+  -F 'file=@/path/to/file.jpg'     \
+  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -o out.png
+
+```
+
+#### Python
+
+```python
+  import requests
+  response = requests.post(
+    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    files={'file': open('/path/to/file.jpg', 'rb')},
+    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
+  )
+```
+
+#### Node.js
+
+```node.js
+  var request = require('request');
+  var fs = require('fs');
+
+  request.post({
+    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    formData: {
+    file: fs.createReadStream('/path/to/file.jpg')
+    },
+    headers: {
+    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
+    },
+    encoding: null
+  }, function(error, response, body) {
+    // console.log(response);
+  });
+```
+
+### Request description
+
+### Response description
 

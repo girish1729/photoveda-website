@@ -22,9 +22,6 @@ title = "Photoveda -  Image editor"
     footerDescription = "A free project to give life to your USB pendrive"
 
 [[params.headermenu]]
-   link = "/screenshots"
-   title = "Screenshots"
-[[params.headermenu]]
    link = "/api"
    title = "API"
 [[params.headermenu]]

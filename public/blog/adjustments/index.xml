@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adjustments blog articles on Photoveda -  Image editor</title>
+    <link>/blog/adjustments/</link>
+    <description>Recent content in Adjustments blog articles on Photoveda -  Image editor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>girish@photoveda.pro (Girish Venkatachalam)</managingEditor>
+    <webMaster>girish@photoveda.pro (Girish Venkatachalam)</webMaster>
+    <lastBuildDate>Tue, 10 Oct 2023 00:00:01 +0000</lastBuildDate><atom:link href="/blog/adjustments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contrast and brightness</title>
+      <link>/blog/adjustments/contrast-brightness/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/adjustments/contrast-brightness/</guid>
+      <description>Contrast and brightness But over time I could fall in love and finish this work.
+Back to adjustments blog </description>
+    </item>
+    
+    <item>
+      <title>Gamma correction</title>
+      <link>/blog/adjustments/adjust-gamma/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/adjustments/adjust-gamma/</guid>
+      <description>Gamma correction React is a very popular web development fraBut over time I could fall in love and finish this work.
+Back to adjustments blog </description>
+    </item>
+    
+    <item>
+      <title>How to adjust an image?</title>
+      <link>/blog/adjustments/color-temperature/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/adjustments/color-temperature/</guid>
+      <description>Color temperature It is used for highly responsive web applications that use JSX code for efficiency and fewer DOM updates.
+Back to adjustments blog </description>
+    </item>
+    
+    <item>
+      <title>Shadows and exposure</title>
+      <link>/blog/adjustments/shadows-exposure/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/adjustments/shadows-exposure/</guid>
+      <description>Shadows and exposure But over time I could fall in love and finish this work.
+Back to adjustments blog </description>
+    </item>
+    
+  </channel>
+</rss>

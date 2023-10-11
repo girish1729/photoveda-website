@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filters API on Photoveda -  Image editor</title>
+    <link>/api/filters/</link>
+    <description>Recent content in Filters API on Photoveda -  Image editor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>girish@photoveda.pro (Girish Venkatachalam)</managingEditor>
+    <webMaster>girish@photoveda.pro (Girish Venkatachalam)</webMaster>
+    <lastBuildDate>Tue, 10 Oct 2023 00:00:01 +0000</lastBuildDate><atom:link href="/api/filters/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blend Image API</title>
+      <link>/api/filters/blendimage/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/blendimage/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>BlendColor API</title>
+      <link>/api/filters/blendcolor/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/blendcolor/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Blur API</title>
+      <link>/api/filters/blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Brownie filter</title>
+      <link>/api/filters/brownie/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/brownie/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Emboss API</title>
+      <link>/api/filters/emboss/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/emboss/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Fish eye filter</title>
+      <link>/api/filters/fisheye/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/fisheye/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Gamma API</title>
+      <link>/api/filters/gamma/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/gamma/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Greyscale API</title>
+      <link>/api/filters/greyscale/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/greyscale/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>HueRotate API</title>
+      <link>/api/filters/huerotate/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/huerotate/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Invert API</title>
+      <link>/api/filters/invert/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/invert/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Kodachrome API</title>
+      <link>/api/filters/kodachrome/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/kodachrome/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Linear blur API</title>
+      <link>/api/filters/linear-blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/linear-blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Minature faking API</title>
+      <link>/api/filters/miniature-faking/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/miniature-faking/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Mirrored blur API</title>
+      <link>/api/filters/mirrored-blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/mirrored-blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Motion blur API</title>
+      <link>/api/filters/motion-blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/motion-blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Pixelate API</title>
+      <link>/api/filters/pixelate/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/pixelate/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Radial blur API</title>
+      <link>/api/filters/radial-blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/radial-blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>RemoveColor API</title>
+      <link>/api/filters/removecolor/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/removecolor/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Sepia API</title>
+      <link>/api/filters/sepia/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/sepia/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Sharpen API</title>
+      <link>/api/filters/sharpen/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/sharpen/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Technicolor API</title>
+      <link>/api/filters/technicolor/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/technicolor/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Tilt lens API</title>
+      <link>/api/filters/tilt-lens/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/tilt-lens/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Vibrance API</title>
+      <link>/api/filters/vibrance/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/vibrance/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Vignette API</title>
+      <link>/api/filters/vignette/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/vignette/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Vintage API</title>
+      <link>/api/filters/vintage/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/vintage/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+  </channel>
+</rss>

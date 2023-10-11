@@ -86,3 +86,12 @@ html {
 *:hover {
     transition: all 400ms ease;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #333;
+  padding: 0 .2em;
+}

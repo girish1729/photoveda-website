@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photoveda -  Image editor</title>
+    <link>/</link>
+    <description>Recent content on Photoveda -  Image editor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>girish@photoveda.pro (Girish Venkatachalam)</managingEditor>
+    <webMaster>girish@photoveda.pro (Girish Venkatachalam)</webMaster>
+    <lastBuildDate>Tue, 10 Oct 2023 00:00:01 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add corners</title>
+      <link>/blog/frames-borders/image-w-corner-frame-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/image-w-corner-frame-border/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Add emotions to images</title>
+      <link>/blog/stickers/sticker-fun/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/stickers/sticker-fun/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+Back to sticker blog </description>
+    </item>
+    
+    <item>
+      <title>Adding 3d border</title>
+      <link>/blog/frames-borders/css-3d-picture-frame-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/css-3d-picture-frame-border/</guid>
+      <description>Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Adding blurred border</title>
+      <link>/blog/frames-borders/blurred-border-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/blurred-border-border/</guid>
+      <description>Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>adding film border</title>
+      <link>/blog/frames-borders/film-border-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/film-border-border/</guid>
+      <description>React plugin developmen But over time I could fall in love and finish this work.
+Back to blog </description>
+    </item>
+    
+    <item>
+      <title>Adding hard light</title>
+      <link>/blog/overlays/hard-light-overlay/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/overlays/hard-light-overlay/</guid>
+      <description>Adding hard light But over time I could fall in love and finish this work.
+Back to overlays blog </description>
+    </item>
+    
+    <item>
+      <title>Adding oval border</title>
+      <link>/blog/frames-borders/add-oval-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/add-oval-border/</guid>
+      <description>Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Arrows and lines</title>
+      <link>/blog/shapes/drawing-arrows-and-lines/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/shapes/drawing-arrows-and-lines/</guid>
+      <description>Arrows and lines In developing a plugin or REACT I faced some challenges in the beginning when my learning was not adequate.
+But over time I could fall in love and finish this work.
+Back to Shapes blog </description>
+    </item>
+    
+    <item>
+      <title>Beveled picture border</title>
+      <link>/blog/frames-borders/css-3-d-beveled-picture-frame-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/css-3-d-beveled-picture-frame-border/</guid>
+      <description>Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Blend color filter</title>
+      <link>/blog/filters/blendcolor-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/blendcolor-filter/</guid>
+      <description>Blend color React is a very popular web development framework from Facebook.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Blend image filter</title>
+      <link>/blog/filters/blendimage-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/blendimage-filter/</guid>
+      <description>Blend image filter Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Blur filter</title>
+      <link>/blog/filters/blur-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/blur-filter/</guid>
+      <description>Blur filter But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Brownie filter</title>
+      <link>/blog/filters/brownie-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/brownie-filter/</guid>
+      <description>Brownie filter But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Color burn overlay on image</title>
+      <link>/blog/overlays/color-burn-overlay/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/overlays/color-burn-overlay/</guid>
+      <description>React plugin development But over time I could fall in love and finish this work.
+Back to Overlays blog </description>
+    </item>
+    
+    <item>
+      <title>Contrast and brightness</title>
+      <link>/blog/adjustments/contrast-brightness/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/adjustments/contrast-brightness/</guid>
+      <description>Contrast and brightness But over time I could fall in love and finish this work.
+Back to adjustments blog </description>
+    </item>
+    
+    <item>
+      <title>Crop transformation</title>
+      <link>/blog/transformations/crop-transform/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/transformations/crop-transform/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+But over time I could fall in love and finish this work.
+Back to blog </description>
+    </item>
+    
+    <item>
+      <title>Darken image</title>
+      <link>/blog/overlays/darken-overlay/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/overlays/darken-overlay/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+Back to overlays blog </description>
+    </item>
+    
+    <item>
+      <title>Draw circles and ellipses on images</title>
+      <link>/blog/shapes/circles-ellipses/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/shapes/circles-ellipses/</guid>
+      <description>Drawing circles as not adequate.
+But over time I could fall in love and finish this work.
+Back to shapes blog </description>
+    </item>
+    
+    <item>
+      <title>Drawing polygons</title>
+      <link>/blog/shapes/polygon-overlays/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/shapes/polygon-overlays/</guid>
+      <description>Drawing polygons But over time I could fall in love and finish this work.
+Back to shapes blog </description>
+    </item>
+    
+    <item>
+      <title>Emboss filter</title>
+      <link>/blog/filters/emboss-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/emboss-filter/</guid>
+      <description>Emboss filter But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Fisheye effect</title>
+      <link>/blog/filters/fisheye-effect-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/fisheye-effect-filter/</guid>
+      <description>Fish eye effect React is a very popular web development framework from Facebook. But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>flickr picture gallery</title>
+      <link>/blog/frames-borders/flickr-picture-gallery-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/flickr-picture-gallery-border/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Gamma correction</title>
+      <link>/blog/adjustments/adjust-gamma/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/adjustments/adjust-gamma/</guid>
+      <description>Gamma correction React is a very popular web development fraBut over time I could fall in love and finish this work.
+Back to adjustments blog </description>
+    </item>
+    
+    <item>
+      <title>Gamma filter</title>
+      <link>/blog/filters/gamma-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/gamma-filter/</guid>
+      <description>React plugin development But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>How to add 8 pixel border?</title>
+      <link>/blog/frames-borders/8-bit-pixel-border-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/8-bit-pixel-border-border/</guid>
+      <description>Adding borders Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>How to adjust an image?</title>
+      <link>/blog/adjustments/color-temperature/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/adjustments/color-temperature/</guid>
+      <description>Color temperature It is used for highly responsive web applications that use JSX code for efficiency and fewer DOM updates.
+Back to adjustments blog </description>
+    </item>
+    
+    <item>
+      <title>How to adjust an image?</title>
+      <link>/blog/filters/greyscale-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/greyscale-filter/</guid>
+      <description>React plugin development Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>How to adjust an image?</title>
+      <link>/blog/filters/huerotate-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/huerotate-filter/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+Back to blog </description>
+    </item>
+    
+    <item>
+      <title>How to adjust an image?</title>
+      <link>/blog/frames-borders/picture-frame-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/picture-frame-border/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>How to adjust an image?</title>
+      <link>/blog/frames-borders/picture-frame-gallery-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/picture-frame-gallery-border/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+It is used for highly responsive web applications that use JSX code for efficiency and fewer DOM updates.
+In developing a plugin or REACT I faced some challenges in the beginning when my learning was not adequate.
+But over time I could fall in love and finish this work.
+Back to blog </description>
+    </item>
+    
+    <item>
+      <title>How to lighten an image?</title>
+      <link>/blog/overlays/lighten-overlay/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/overlays/lighten-overlay/</guid>
+      <description>Lighten an image But over time I could fall in love and finish this work.
+Back to overlays blog </description>
+    </item>
+    
+    <item>
+      <title>How to rotate an image?</title>
+      <link>/blog/transformations/rotate-transform/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/transformations/rotate-transform/</guid>
+      <description>Rotate images React is a very popular web development framework from Facebook.
+Back to blog </description>
+    </item>
+    
+    <item>
+      <title>Image decoration</title>
+      <link>/blog/frames-borders/fancy-image-decoration-on-hover-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/fancy-image-decoration-on-hover-border/</guid>
+      <description>React plugin development Back to blog </description>
+    </item>
+    
+    <item>
+      <title>Invert filter</title>
+      <link>/blog/filters/invert-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/invert-filter/</guid>
+      <description>Invert filter Back to blog </description>
+    </item>
+    
+    <item>
+      <title>Kodachrome filter</title>
+      <link>/blog/filters/kodachrome-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/kodachrome-filter/</guid>
+      <description>Kodachrome filter But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Linear blur</title>
+      <link>/blog/filters/linear-blur-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/linear-blur-filter/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook. But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Make a square image</title>
+      <link>/blog/dimensions/make-square/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/dimensions/make-square/</guid>
+      <description>Make a square image React is a very popular web development framework from Facebook.
+Back to dimensions blog </description>
+    </item>
+    
+    <item>
+      <title>Make a wide photo</title>
+      <link>/blog/dimensions/make-wide-photo/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/dimensions/make-wide-photo/</guid>
+      <description>Change dimensions React is a very popular web development framework from Facebook.
+Back to dimensions blog </description>
+    </item>
+    
+    <item>
+      <title>Miniature faking</title>
+      <link>/blog/filters/miniature-faking-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/miniature-faking-filter/</guid>
+      <description>Miniature faking But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Mirror filter</title>
+      <link>/blog/filters/mirrored-blur-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/mirrored-blur-filter/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Motion blur</title>
+      <link>/blog/filters/motion-blur-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/motion-blur-filter/</guid>
+      <description>Motion blur But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Muliply an image</title>
+      <link>/blog/overlays/multiply-overlay/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/overlays/multiply-overlay/</guid>
+      <description>Multiply overlay Back to overlays blog </description>
+    </item>
+    
+    <item>
+      <title>Nice border</title>
+      <link>/blog/frames-borders/pen-export-dxzpnr-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/pen-export-dxzpnr-border/</guid>
+      <description>React plugin development But over time I could fall in love and finish this work.
+Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Normal overlay</title>
+      <link>/blog/overlays/normal-overlay-overlay/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/overlays/normal-overlay-overlay/</guid>
+      <description>Normal overlay React is a very popular web development framework from Facebook. But over time I could fall in love and finish this work.
+Back to overlays blog </description>
+    </item>
+    
+    <item>
+      <title>Photo frame</title>
+      <link>/blog/frames-borders/css-animation-photo-frame-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/css-animation-photo-frame-border/</guid>
+      <description>Back to blog </description>
+    </item>
+    
+    <item>
+      <title>picture border</title>
+      <link>/blog/frames-borders/css3-picture-frame-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/css3-picture-frame-border/</guid>
+      <description>Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Picture frame</title>
+      <link>/blog/frames-borders/css-picture-frame-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/css-picture-frame-border/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Pixelate filter</title>
+      <link>/blog/filters/pixelate-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/pixelate-filter/</guid>
+      <description>Pixelate filter But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Radial blur</title>
+      <link>/blog/filters/radial-blur-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/radial-blur-filter/</guid>
+      <description>Radial blur But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Rainbow border</title>
+      <link>/blog/frames-borders/rainbow-frame-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/rainbow-frame-border/</guid>
+      <description>React plugin development React is a very popular web development framework from Facebook.
+Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Realistic photo border</title>
+      <link>/blog/frames-borders/one-element-realistic-photo-frame-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/one-element-realistic-photo-frame-border/</guid>
+      <description>Realistic photo border But over time I could fall in love and finish this work.
+Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Remove color</title>
+      <link>/blog/filters/removecolor-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/removecolor-filter/</guid>
+      <description>ReMove color React is a very popular web development framework from Facebook.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Screen overlay</title>
+      <link>/blog/overlays/screen-overlay/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/overlays/screen-overlay/</guid>
+      <description>Screen overlay React is a very popular web development framework from Facebook.
+Back to overlays blog </description>
+    </item>
+    
+    <item>
+      <title>Sepia filter</title>
+      <link>/blog/filters/sepia-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/sepia-filter/</guid>
+      <description>Sepia filter But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Shadows and exposure</title>
+      <link>/blog/adjustments/shadows-exposure/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/adjustments/shadows-exposure/</guid>
+      <description>Shadows and exposure But over time I could fall in love and finish this work.
+Back to adjustments blog </description>
+    </item>
+    
+    <item>
+      <title>Sharpen image</title>
+      <link>/blog/filters/sharpen-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/sharpen-filter/</guid>
+      <description>Sharpen filter React is a very popular web development framework from Facebook.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Sketchy border</title>
+      <link>/blog/frames-borders/sketchy-border-test-border/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/frames-borders/sketchy-border-test-border/</guid>
+      <description>Sketchy border React is a very popular web development framework from Facebook.
+Back to frames blog </description>
+    </item>
+    
+    <item>
+      <title>Soft light overlay</title>
+      <link>/blog/overlays/soft-light-overlay/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/overlays/soft-light-overlay/</guid>
+      <description>Soft light effect React is a very popular web development framework from Facebook.
+Back to overlays blog </description>
+    </item>
+    
+    <item>
+      <title>Some sample stickes</title>
+      <link>/blog/stickers/some-sample-sticker-demos/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/stickers/some-sample-sticker-demos/</guid>
+      <description>Some sticker demos But over time I could fall in love and finish this work.
+Back to sticker blog </description>
+    </item>
+    
+    <item>
+      <title>Technicolor filter</title>
+      <link>/blog/filters/technicolor-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/technicolor-filter/</guid>
+      <description>Technicolor filter But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Tilt lens</title>
+      <link>/blog/filters/tilt-lens-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/tilt-lens-filter/</guid>
+      <description>Tilt lens But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Vibrance filter</title>
+      <link>/blog/filters/vibrance-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/vibrance-filter/</guid>
+      <description>Vibrance filter React is a very popular web development framework from Facebook.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Vignette filter</title>
+      <link>/blog/filters/vignette-effect/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/vignette-effect/</guid>
+      <description>Vignette filter But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Vintage effect</title>
+      <link>/blog/filters/vintage-filter/</link>
+      <pubDate>Thu, 16 Feb 2023 15:21:54 +0530</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/blog/filters/vintage-filter/</guid>
+      <description>Vintage effect But over time I could fall in love and finish this work.
+Back to filters blog </description>
+    </item>
+    
+    <item>
+      <title>Adjustments API</title>
+      <link>/api/adjustments/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/adjustments/</guid>
+      <description>Get API Key Adjust gamma Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Blend Image API</title>
+      <link>/api/filters/blendimage/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/blendimage/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>BlendColor API</title>
+      <link>/api/filters/blendcolor/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/blendcolor/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Blur API</title>
+      <link>/api/filters/blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Brownie filter</title>
+      <link>/api/filters/brownie/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/brownie/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Dimensions API</title>
+      <link>/api/dimensions/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/dimensions/</guid>
+      <description>Get API Key Adjust gamma Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Emboss API</title>
+      <link>/api/filters/emboss/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/emboss/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Fish eye filter</title>
+      <link>/api/filters/fisheye/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/fisheye/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Gamma API</title>
+      <link>/api/filters/gamma/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/gamma/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Greyscale API</title>
+      <link>/api/filters/greyscale/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/greyscale/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>HueRotate API</title>
+      <link>/api/filters/huerotate/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/huerotate/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Invert API</title>
+      <link>/api/filters/invert/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/invert/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Kodachrome API</title>
+      <link>/api/filters/kodachrome/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/kodachrome/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Linear blur API</title>
+      <link>/api/filters/linear-blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/linear-blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Minature faking API</title>
+      <link>/api/filters/miniature-faking/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/miniature-faking/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Mirrored blur API</title>
+      <link>/api/filters/mirrored-blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/mirrored-blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Motion blur API</title>
+      <link>/api/filters/motion-blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/motion-blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Overlay API</title>
+      <link>/api/overlays/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/overlays/</guid>
+      <description>Get API Key Adjust gamma Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Pixelate API</title>
+      <link>/api/filters/pixelate/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/pixelate/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Radial blur API</title>
+      <link>/api/filters/radial-blur/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/radial-blur/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>RemoveColor API</title>
+      <link>/api/filters/removecolor/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/removecolor/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Sepia API</title>
+      <link>/api/filters/sepia/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/sepia/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Shapes like squares, circles and hexagons using API</title>
+      <link>/api/shapes/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/shapes/</guid>
+      <description>Get API Key Adjust gamma Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Sharpen API</title>
+      <link>/api/filters/sharpen/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/sharpen/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Stickers API</title>
+      <link>/api/stickers/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/stickers/</guid>
+      <description>Get API Key Adjust gamma Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Technicolor API</title>
+      <link>/api/filters/technicolor/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/technicolor/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Tilt lens API</title>
+      <link>/api/filters/tilt-lens/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/tilt-lens/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Transformations API</title>
+      <link>/api/transformations/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/transformations/</guid>
+      <description>Get API Key Adjust gamma Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Vibrance API</title>
+      <link>/api/filters/vibrance/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/vibrance/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Vignette API</title>
+      <link>/api/filters/vignette/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/vignette/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title>Vintage API</title>
+      <link>/api/filters/vintage/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:01 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/api/filters/vintage/</guid>
+      <description>Get API Key 1a. Adjust gamma (Binary stream) Parameter Type Description name String Type of work gamma Integer Gamma value Sample code Curl curl -H &amp;#39;APIKEY: INSERT_YOUR_API_KEY_HERE&amp;#39; \ -F &amp;#39;file=@/path/to/file.jpg&amp;#39; \ -f &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;amp;crop=true&amp;#39; \ -o out.png Python import requests response = requests.post( &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, files={&amp;#39;file&amp;#39;: open(&amp;#39;/path/to/file.jpg&amp;#39;, &amp;#39;rb&amp;#39;)}, headers={&amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39;}, ) Node.js var request = require(&amp;#39;request&amp;#39;); var fs = require(&amp;#39;fs&amp;#39;); request.post({ url: &amp;#39;https://www.cutout.pro/api/v1/matting2?mattingType=6&amp;#39;, formData: { file: fs.createReadStream(&amp;#39;/path/to/file.jpg&amp;#39;) }, headers: { &amp;#39;APIKEY&amp;#39;: &amp;#39;INSERT_YOUR_API_KEY_HERE&amp;#39; }, encoding: null }, function(error, response, body) { // console.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/home/</guid>
+      <description>What is Progress-up? Uploading gif
+A HTML5 multiple files Upload plugin with progress bar indicator and file preview.
+It uses the HTTP File API to show continuous progress.
+Now available for
+Angular Vue Svelte React in addition to vanilla Javascript.
+A sample screenshot of the preview function.
+More stats
+Detailed instructions Developer docs Live demo Vue.js Angular React Svelte Why should you care? If you allow multiple large files upload then a progress indicator is a cool way to give user feedback.</description>
+    </item>
+    
+    <item>
+      <title>Screenshots of Progress-up</title>
+      <link>/screenshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>girish@photoveda.pro (Girish Venkatachalam)</author>
+      <guid>/screenshots/</guid>
+      <description>Some screenshots of progress-up Banned files
+Before upload
+Dark mode preview
+After upload
+Help tab
+Help tab
+Drag and drop
+Uploading gif
+Main tab
+One more preview
+Setup tab
+Stats tab
+More stats
+Progress bar update
+setup tab</description>
+    </item>
+    
+  </channel>
+</rss>

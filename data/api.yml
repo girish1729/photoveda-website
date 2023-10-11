@@ -34,4 +34,70 @@ apilist:
     description: >
              Overlay text API
     link: "/api/overlays"
+adjustlist:
+
+  - name: Brightness
+    link: "/api/adjustments/brightness"
+  - name: Color Temperature
+    link: "/api/adjustments/color-temperature"
+  - name: contrast
+    link: "/api/adjustments/contrast"
+  - name: Exposure
+    link: "/api/adjustments/exposure"
+  - name: Lighting
+    link: "/api/adjustments/lighting"
+  - name: Shadows
+    link: "/api/adjustments/shadows"
+filterlist:
+
+  - name: BlendColor
+    link: "/api/filters/blendcolor"
+  - name: BlendImage
+    link: "/api/filters/blendimage"
+  - name: Blur
+    link: "/api/filters/blur"
+  - name: Brownie
+    link: "/api/filters/brownie"
+  - name: Emboss
+    link: "/api/filters/emboss"
+  - name: Fisheye
+    link: "/api/filters/fisheye"
+  - name: Gamma
+    link: "/api/filters/gamma"
+  - name: Greyscale
+    link: "/api/filters/greyscale"
+  - name: HueRotate
+    link: "/api/filters/huerotate"
+  - name: Invert
+    link: "/api/filters/invert"
+  - name: Kodachrome
+    link: "/api/filters/kodachrome"
+  - name: Linear-blur
+    link: "/api/filters/linear-blur"
+  - name: Miniature-faking
+    link: "/api/filters/miniature-faking"
+  - name: Mirrored-blur
+    link: "/api/filters/mirrored-blur"
+  - name: Motion-blur
+    link: "/api/filters/motion-blur"
+  - name: Pixelate
+    link: "/api/filters/pixelate"
+  - name: Radial-blur
+    link: "/api/filters/radial-blur"
+  - name: RemoveColor
+    link: "/api/filters/removecolor"
+  - name: Sepia
+    link: "/api/filters/sepia"
+  - name: Sharpen
+    link: "/api/filters/sharpen"
+  - name: Technicolor
+    link: "/api/filters/technicolor"
+  - name: Tilt-lens
+    link: "/api/filters/tilt-lens"
+  - name: Vibrance
+    link: "/api/filters/vibrance"
+  - name: Vignette
+    link: "/api/filters/vignette"
+  - name: Vintage
+    link: "/api/filters/vintage"
 ---

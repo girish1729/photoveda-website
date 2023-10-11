@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html class="min-h-screen" lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.119.0">
+    
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" href="/css/page.css" as="style" />
+
+<style>
+.layout-frame {
+                width: 860px;
+                height: 600px;
+		margin-left: 50%;
+                transform: translateX(-50%);
+                transform-origin: 0 0;
+}
+</style>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Photoveda - Image editor">
+<meta name="author" content="">
+<meta name="robots" content="index,follow">
+
+        <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/images/screenshots/headshot.jpg"/>
+
+<meta name="twitter:title" content="Photoveda -  Image editor"/>
+<meta name="twitter:description" content="Photoveda - Image editor"/>
+
+        <meta property="og:title" content="Photoveda -  Image editor" />
+<meta property="og:description" content="Photoveda - Image editor" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/" /><meta property="og:image" content="/images/screenshots/headshot.jpg"/><meta property="og:site_name" content="Photoveda plugin -  Image editor in Chrome browser" />
+
+
+<base href="/">
+<meta name="theme-color" content="#ffffff">
+<title>Photoveda -  Image editor</title>
+
+<link rel="stylesheet" href="/css/page.css">
+
+    
+</head>
+<body id="top" class="min-h-screen body-font font-poppins">
+        <main>
+            
+    <link rel="stylesheet"  href="/css/normalize.min.css">
+    
+<nav id='site-menu' class="fixed top-0 z-30 opacity-100 inset-x-0 bg-opacity-100 flex
+flex-col sm:flex-row font-poppins w-full justify-between items-center
+px-4 sm:px-6 py-1 bg-white ">
+    <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
+        <a href="/" class="no-underline"><img
+src="/images/photoveda-logo.png" alt="Photoveda Logo" class="w-16 py-0"></a>
+        <button id="menuBtn" class="hamburger block sm:hidden focus:outline-none" type="button" onclick="navToggle();" aria-label="Show Menu">
+	<span class="hamburger__top-bun"></span>
+	<span class="hamburger__middle-bun"></span>
+	<span class="hamburger__bottom-bun"></span></button>
+    </div>
+    <div id="menu" class="opacity-100 bg-white w-full sm:w-auto self-end sm:self-center hidden sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0">
+        
+        <a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=" /api">API</a>
+	
+        <a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=" /join-waitlist">Join waitlist</a>
+	
+        <a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=" /blog">Blog</a>
+	
+        <a class="text-md active:font-bold hover:text-blue-400 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href=" /pricing">Pricing</a>
+	
+    </div>
+</nav>
+
+
+<div class="container  mt-32">
+  
+  <section class="mb-32">
+ 
+<h2 class="text-7xl">
+	Edit your images with a Chrome plugin in minutes
+</h2>
+
+<div style="position: relative; padding-bottom: 52.1875%; height:
+0;"><iframe
+src="https://www.loom.com/embed/452cbfb14c8944abaacc3bbe438a36ab?sid=4852cff9-9e56-4d09-82bb-8d0196fc6b7d"
+frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+style="position: absolute; top: 0; left: 0; width: 100%; height:
+100%;"></iframe></div>
+
+  </section>
+</div>
+
+
+<div class="container my-24 mx-auto md:px-6">
+  
+  <section class="background-radial-gradient mb-32">
+    <style>
+      .background-radial-gradient {
+        background-color: hsl(218, 41%, 15%);
+        background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(21, 41%, 35%) 15%,
+            hsl(21, 41%, 30%) 35%,
+            hsl(21, 41%, 20%) 75%,
+            hsl(21, 41%, 19%) 80%,
+            transparent 100%),
+          radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%);
+      }
+    </style>
+
+    <div class="px-6 py-12 text-center md:px-12 lg:text-left">
+      <div class="container mx-auto xl:px-32">
+        <div class="flex grid items-center gap-12 lg:grid-cols-2">
+          <div class="mt-12 lg:mt-0">
+            <h1 class="mb-16 text-5xl font-bold tracking-tight
+text-[hsl(218,81%,95%)] md:text-6xl xl:text-7xl">
+              The best image editor for your photos
+            </h1>
+            <a class="mb-2 inline-block rounded bg-neutral-50 px-12 pt-4
+pb-3.5 text-sm font-medium uppercase leading-normal text-neutral-800
+transition duration-150 ease-in-out focus:outline-none focus:ring-0
+active:bg-neutral-200
+active:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)]
+shadow-[0_4px_9px_-4px_rgba(251,251,251,0.3)]
+hover:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]
+focus:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]
+active:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]
+md:mr-2 md:mb-0"
+              data-te-ripple-init data-te-ripple-color="light" href="#!"
+role="button">Join waitlist</a>
+            <a class="inline-block rounded px-12 pt-4 pb-3.5 text-sm
+font-medium leading-normal text-neutral-50 transition
+duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10
+hover:text-neutral-200 focus:text-neutral-200 focus:outline-none
+focus:ring-0 active:text-neutral-300"
+              data-te-ripple-init data-te-ripple-color="yellow" href="#!"
+role="button">Learn more</a>
+          </div>
+          <div class="mb-12 lg:mb-0">
+            <img
+src="img/58.jpg"
+              class="w-full rounded-lg shadow-lg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+
+<div class="grid-cols-1 sm:grid md:grid-cols-2 ">
+  <div
+    class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white
+shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
+dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    <a href="#!">
+      <img
+        class="rounded-t-lg"
+        src="https://tecdn.b-cdn.net/img/new/standard/city/041.webp"
+        alt="Hollywood Sign on The Hill" />
+    </a>
+    <div class="p-6">
+      <h5
+        class="mb-2 text-xl font-medium leading-tight text-neutral-800
+dark:text-neutral-50">
+        Text overlay
+      </h5>
+      <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+        This is a longer card with supporting text below as a natural
+      </p>
+    </div>
+  </div>
+  <div
+    class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white
+shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
+dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    <a href="#!">
+      <img
+        class="rounded-t-lg"
+        src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp"
+        alt="Palm Springs Road" />
+    </a>
+    <div class="p-6">
+      <h5
+        class="mb-2 text-xl font-medium leading-tight text-neutral-800
+dark:text-neutral-50">
+        Adding frame
+      </h5>
+      <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+        This is a longer card with supporting text below as a natural
+      </p>
+    </div>
+  </div>
+  <div
+    class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white
+shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
+dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    <a href="#!">
+      <img
+        class="rounded-t-lg"
+        src="https://tecdn.b-cdn.net/img/new/standard/city/044.webp"
+        alt="Skyscrapers" />
+    </a>
+    <div class="p-6">
+      <h5
+        class="mb-2 text-xl font-medium leading-tight text-neutral-800
+dark:text-neutral-50">
+        Greyscale filter
+      </h5>
+      <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+        This is a longer card with supporting text below as a natural
+      </p>
+    </div>
+  </div>
+  <div
+    class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white
+shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
+dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    <a href="#!">
+      <img
+        class="rounded-t-lg"
+        src="https://tecdn.b-cdn.net/img/new/standard/city/043.webp"
+        alt="Los Angeles Skyscrapers" />
+    </a>
+    <div class="p-6">
+      <h5
+        class="mb-2 text-xl font-medium leading-tight text-neutral-800
+dark:text-neutral-50">
+        Vignette effect
+      </h5>
+      <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+        This is a longer card with supporting text below as a natural
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container my-24 mx-auto md:px-6">
+  
+  <section class="mb-32 text-center md:text-left">
+    <div
+      class="block rounded-lg bg-white
+shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
+dark:bg-neutral-700">
+      <div class="flex flex-wrap items-center">
+        <div class="block w-full shrink-0 grow-0 basis-auto lg:flex
+lg:w-6/12 xl:w-4/12">
+          <img src="img/126.jpg" alt="Sample image"
+            class="w-full rounded-t-lg lg:rounded-tr-none
+lg:rounded-bl-lg" />
+        </div>
+        <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12
+xl:w-8/12">
+          <div class="px-6 py-12 md:px-12">
+            <h2 class="mb-6 pb-2 text-5xl font-bold">
+             	Edit your photo in minutes 
+            </h2>
+            <p class="mb-6 pb-2 text-neutral-500 dark:text-neutral-300">
+             Intuitive interface 
+            </p>
+            <div class="mb-6 flex flex-wrap">
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Extensive docs with examples
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Filters
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Adjustments
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Shapes
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Stickers
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Format conversions
+                </p>
+              </div>
+            </div>
+            <button type="button"
+              class="inline-block rounded bg-neutral-800 px-12 pt-3.5
+pb-3 text-sm font-medium uppercase leading-normal text-neutral-50
+shadow-[0_4px_9px_-4px_rgba(51,45,45,0.7)] transition duration-150
+ease-in-out hover:bg-neutral-800
+hover:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)]
+focus:bg-neutral-800
+focus:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)]
+focus:outline-none focus:ring-0 active:bg-neutral-900
+active:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)]
+dark:bg-neutral-50 dark:text-neutral-800
+dark:shadow-[0_4px_9px_-4px_rgba(251,251,251,0.3)]
+dark:hover:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]
+dark:focus:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]
+dark:active:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]"
+              data-te-ripple-init data-te-ripple-color="light">
+              Join waitlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+
+
+<div class="container my-24 mx-auto md:px-6">
+  
+  <section class="mb-32">
+    <div class="flex justify-center">
+      <div class="max-w-[700px] text-center">
+        <p class="mb-6 font-bold uppercase text-primary
+dark:text-primary-400">
+          Features
+        </p>
+        <h2 class="mb-6 text-3xl font-bold">What is it?</h2>
+        <p class="mb-16 text-neutral-500 dark:text-neutral-300">
+		An image editing tool
+        </p>
+      </div>
+    </div>
+
+    <div class="grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
+      <div class="mb-12">
+        <div class="flex">
+          <div class="shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="mr-3 h-5 w-5 text-success">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0
+0118 0z" />
+            </svg>
+          </div>
+          <div class="ml-2 grow">
+            <p class="mb-1 font-bold">40+ filters</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Apply any image transformation
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12">
+        <div class="flex">
+          <div class="shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="mr-3 h-5 w-5 text-success">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0
+0118 0z" />
+            </svg>
+          </div>
+          <div class="ml-2 grow">
+            <p class="mb-1 font-bold">Color adjustments</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Adjust color temperature or hue
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12">
+        <div class="flex">
+          <div class="shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="mr-3 h-5 w-5 text-success">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0
+0118 0z" />
+            </svg>
+          </div>
+          <div class="ml-2 grow">
+            <p class="mb-1 font-bold">Image or text overlays</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		You can overlay any shape or image even text
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12">
+        <div class="flex">
+          <div class="shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="mr-3 h-5 w-5 text-success">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0
+0118 0z" />
+            </svg>
+          </div>
+          <div class="ml-2 grow">
+            <p class="mb-1 font-bold">Suitable for quick edits</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Edit within minutes
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12">
+        <div class="flex">
+          <div class="shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="mr-3 h-5 w-5 text-success">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0
+0118 0z" />
+            </svg>
+          </div>
+          <div class="ml-2 grow">
+            <p class="mb-1 font-bold">Lots of examples</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Find extensive documentation replete with samples.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12">
+        <div class="flex">
+          <div class="shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="mr-3 h-5 w-5 text-success">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0
+0118 0z" />
+            </svg>
+          </div>
+          <div class="ml-2 grow">
+            <p class="mb-1 font-bold">Add emoticons</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Lots of stickers available
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12">
+        <div class="flex">
+          <div class="shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="mr-3 h-5 w-5 text-success">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0
+0118 0z" />
+            </svg>
+          </div>
+          <div class="ml-2 grow">
+            <p class="mb-1 font-bold">Frequent updates</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		In active development
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12">
+        <div class="flex">
+          <div class="shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="mr-3 h-5 w-5 text-success">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0
+0118 0z" />
+            </svg>
+          </div>
+          <div class="ml-2 grow">
+            <p class="mb-1 font-bold">Resize</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		You can stretch or change dimensions
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+
+<div class="container my-24 mx-auto md:px-6">
+  
+  <section class="mb-32">
+    <h2 class="mb-12 text-center text-3xl font-bold">
+      What problem does it solve?
+    </h2>
+
+    <div class="flex flex-wrap items-center">
+      <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-6
+lg:mb-0 lg:w-5/12">
+        <div class="relative overflow-hidden rounded-lg bg-cover
+bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+          data-te-ripple-init data-te-ripple-color="light">
+          <img src="/img/98.jpg" class="w-full" />
+          <a href="#!">
+            <div
+              class="absolute top-0 right-0 bottom-0 left-0 h-full
+w-full overflow-hidden bg-[hsl(0,0%,0%,0.4)] bg-fixed">
+              <div class="flex h-full items-center justify-center">
+                <div class="px-6 py-12 text-center text-white md:px-12">
+                  <h3 class="mb-6 text-2xl font-bold uppercase">
+                    Photo editing with Chrome
+                  </h3>
+                  <p class="text-[hsl(210,12%,80%)]">
+			Chrome browsers are supported on all platforms
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="relative overflow-hidden bg-cover bg-no-repeat">
+              <div
+                class="absolute top-0 right-0 bottom-0 left-0 h-full
+w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0
+transition duration-300 ease-in-out hover:opacity-100">
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="w-full shrink-0 grow-0 basis-auto md:px-6 lg:w-7/12">
+        <div class="mb-12 flex">
+          <div class="shrink-0">
+            <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg
+dark:bg-[hsl(204,23%,30%)]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="h-6 w-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M11.42 15.17L17.25 21A2.652 2.652 0 0021
+17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626
+1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0
+11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5
+4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0
+01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071
+2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25
+3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615
+8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4 grow">
+            <p class="mb-1 font-bold">Ease of use</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		No need to look around
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-12 flex">
+          <div class="shrink-0">
+            <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg
+dark:bg-[hsl(204,23%,30%)]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="h-6 w-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0
+013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623
+5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196
+0-6.1-1.248-8.25-3.285z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4 grow">
+            <p class="mb-1 font-bold">Image adjustments</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Change brightness, contrast, gamma or color temperature
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-12 flex">
+          <div class="shrink-0">
+            <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg
+dark:bg-[hsl(204,23%,30%)]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="h-6 w-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.59 14.37a6 6 0 01-5.84
+7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631
+8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381
+5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699
+2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0
+01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0
+004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4 grow">
+            <p class="mb-1 font-bold">Extremely fast</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Live updates on image progress
+            </p>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="shrink-0">
+            <div class="rounded-md bg-[hsl(204,30%,20%)] p-4 shadow-lg
+dark:bg-[hsl(204,23%,30%)]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="h-6 w-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round"
+d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                <path stroke-linecap="round" stroke-linejoin="round"
+d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4 grow">
+            <p class="mb-1 font-bold">API support</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+              You have REST API for most image functions
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+<div class="mb-3">
+  <label
+    for="formFileMultiple"
+    class="mb-2 inline-block text-neutral-700 dark:text-neutral-200"
+    >Multiple files input example</label
+  >
+  <input
+    class="relative m-0 block w-full min-w-0 flex-auto rounded border
+border-solid border-neutral-300 bg-clip-padding px-3 py-[0.32rem]
+text-base font-normal text-neutral-700 transition duration-300
+ease-in-out file:-mx-3 file:-my-[0.32rem] file:overflow-hidden
+file:rounded-none file:border-0 file:border-solid file:border-inherit
+file:bg-neutral-100 file:px-3 file:py-[0.32rem] file:text-neutral-700
+file:transition file:duration-150 file:ease-in-out
+file:[border-inline-end-width:1px] file:[margin-inline-end:0.75rem]
+hover:file:bg-neutral-200 focus:border-primary focus:text-neutral-700
+focus:shadow-te-primary focus:outline-none dark:border-neutral-600
+dark:text-neutral-200 dark:file:bg-neutral-700
+dark:file:text-neutral-100 dark:focus:border-primary"
+    type="file"
+    id="formFileMultiple"
+    multiple />
+</div>
+
+
+<div class="container my-24 mx-auto md:px-6">
+  
+  <section class="mb-32">
+    <h2 class="mb-12 text-center text-3xl font-bold">
+      Projects using photoveda
+    </h2>
+
+    <div class="flex flex-wrap items-center">
+      <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-6
+lg:mb-0 lg:w-5/12">
+        <div class="relative overflow-hidden rounded-lg bg-cover
+bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+          data-te-ripple-init data-te-ripple-color="light">
+          <img src="/img/126.jpg"
+class="w-full" />
+          <a href="#!">
+            <div
+              class="absolute overflow-hidden top-0 right-0 bottom-0
+left-0 h-full w-full bg-[hsl(0,0%,0%,0.4)] bg-fixed">
+              <div class="flex h-full items-center justify-center">
+                <div class="px-6 py-12 text-center text-white md:px-12">
+                  <h3 class="mb-6 text-2xl font-bold uppercase">
+                    Medical imaging
+                  </h3>
+                  <p class="text-[hsl(210,12%,80%)]">
+			Used for image reconstruction
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="relative overflow-hidden bg-cover bg-no-repeat">
+              <div
+                class="absolute overflow-hidden top-0 right-0 bottom-0
+left-0 h-full w-full bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0
+transition duration-300 ease-in-out hover:opacity-100">
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="w-full shrink-0 grow-0 basis-auto md:px-6 lg:w-7/12">
+        <div class="mb-12 flex">
+          <div class="shrink-0">
+            <div class="rounded-md p-4 shadow-lg bg-[hsl(231,52.6%,20%)]
+dark:bg-[hsl(231,52.6%,30%)]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="h-6 w-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M11.42 15.17L17.25 21A2.652 2.652 0 0021
+17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626
+1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0
+11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5
+4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0
+01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071
+2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25
+3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615
+8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4 grow">
+            <p class="mb-2 font-bold">40 Filters</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-12 flex">
+          <div class="shrink-0">
+            <div class="rounded-md p-4 shadow-lg bg-[hsl(231,52.6%,20%)]
+dark:bg-[hsl(231,52.6%,30%)]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="h-6 w-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0
+013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623
+5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196
+0-6.1-1.248-8.25-3.285z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4 grow">
+            <p class="mb-2 font-bold">Intuitive user interface</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Easy to use. Extensive online help.
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-12 flex">
+          <div class="shrink-0">
+            <div class="rounded-md p-4 shadow-lg bg-[hsl(231,52.6%,20%)]
+dark:bg-[hsl(231,52.6%,30%)]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="h-6 w-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.59 14.37a6 6 0 01-5.84
+7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631
+8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381
+5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699
+2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0
+01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0
+004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4 grow">
+            <p class="mb-2 font-bold">Extremely fast</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Quick response to edit tasks.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="shrink-0">
+            <div class="rounded-md p-4 shadow-lg bg-[hsl(231,52.6%,20%)]
+dark:bg-[hsl(231,52.6%,30%)]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="h-6 w-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round"
+d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                <path stroke-linecap="round" stroke-linejoin="round"
+d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+              </svg>
+            </div>
+          </div>
+          <div class="ml-4 grow">
+            <p class="mb-2 font-bold">Several examples</p>
+            <p class="text-neutral-500 dark:text-neutral-300">
+		Lots of examples on website
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+
+<div class="container my-24 mx-auto md:px-6">
+  
+  <section class="mb-32 text-center lg:text-left">
+    <div
+      class="block rounded-lg bg-white
+shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
+dark:bg-neutral-700">
+      <div class="flex flex-wrap items-center">
+        <div class="block w-full shrink-0 grow-0 basis-auto lg:flex
+lg:w-6/12 xl:w-4/12">
+          <img
+src="https://tecdn.b-cdn.net/img/new/ecommerce/vertical/086.jpg"
+alt="Trendy Pants and Shoes"
+            class="w-full rounded-t-lg lg:rounded-tr-none
+lg:rounded-bl-lg" />
+        </div>
+        <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12
+xl:w-8/12">
+          <div class="px-6 py-12 md:px-12">
+            <h2 class="display-5 mb-6 text-4xl font-bold text-primary
+dark:text-primary-400">
+              What makes Photoveda special?
+            </h2>
+            <p class="mb-12 text-neutral-500 dark:text-neutral-300">
+		Supports 40+ filters
+            </p>
+
+            <div class="grid md:grid-cols-3 lg:gap-x-12">
+              <div class="mb-12 md:mb-0">
+                <h2 class="mb-4 text-3xl font-bold text-primary
+dark:text-primary-400">
+                  10
+                </h2>
+                <h5 class="mb-0 text-lg font-medium text-neutral-500
+dark:text-neutral-300">
+                  Happy customers
+                </h5>
+              </div>
+
+              <div class="mb-12 md:mb-0">
+                <h2 class="mb-4 text-3xl font-bold text-primary
+dark:text-primary-400">
+                  70%
+                </h2>
+                <h5 class="mb-0 text-lg font-medium text-neutral-500
+dark:text-neutral-300">
+                  Growth
+                </h5>
+              </div>
+
+              <div class="">
+                <h2 class="mb-4 text-3xl font-bold text-primary
+dark:text-primary-400">
+                  49
+                </h2>
+                <h5 class="mb-0 text-lg font-medium text-neutral-500
+dark:text-neutral-300">
+                  Projects
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+<section class="text-neutral-700 dark:text-neutral-300">
+
+  <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
+    <h3 class="mb-6 text-3xl font-bold">Testimonials</h3>
+    <p class="mb-6 pb-2 md:mb-12 md:pb-0">
+	Very intuitive interface.
+    </p>
+  </div>
+
+  
+  <div class="grid gap-6 text-center md:grid-cols-3">
+    <div>
+      <div
+        class="block rounded-lg bg-white shadow-lg dark:bg-neutral-700
+dark:shadow-black/30">
+        <div class="h-28 overflow-hidden rounded-t-lg
+bg-[#9d789b]"></div>
+        <div
+          class="mx-auto -mt-12 w-24 overflow-hidden rounded-full
+border-2 border-white bg-white dark:border-neutral-800
+dark:bg-neutral-800">
+          <img
+            src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+/>
+        </div>
+        <div class="p-6">
+          <h4 class="mb-4 text-2xl font-semibold">Maria </h4>
+          <hr />
+          <p class="mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="inline-block h-7 w-7 pr-2"
+              viewBox="0 0 24 24">
+              <path
+                d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984
+2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396
+5.149 0 3.182-2.584 4.979-5.199 4.979-3.015
+0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984
+2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396
+5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"
+/>
+            </svg>
+		Packed with features.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    
+    <div>
+      <div
+        class="block rounded-lg bg-white shadow-lg dark:bg-neutral-700
+dark:shadow-black/30">
+        <div class="h-28 overflow-hidden rounded-t-lg
+bg-[#7a81a8]"></div>
+        <div
+          class="mx-auto -mt-12 w-24 overflow-hidden rounded-full
+border-2 border-white bg-white dark:border-neutral-800
+dark:bg-neutral-800">
+          <img
+            src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+/>
+        </div>
+        <div class="p-6">
+          <h4 class="mb-4 text-2xl font-semibold">Lisa Cudrow</h4>
+          <hr />
+          <p class="mt-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="inline-block h-7 w-7 pr-2"
+              viewBox="0 0 24 24">
+              <path
+                d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984
+2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396
+5.149 0 3.182-2.584 4.979-5.199 4.979-3.015
+0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984
+2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396
+5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"
+/>
+            </svg>
+		Nice job.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<div class="container my-24 mx-auto md:px-6">
+  
+  <section class="mb-32">
+    <h2 class="mb-16 text-center text-3xl font-bold">
+      Frequently asked questions
+    </h2>
+
+    <div class="grid gap-6 lg:grid-cols-3">
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">What is photoveda?</p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+          A photo editor or image retouching tool. Supports 40+ filters
+and you can edit any image in any format within minutes.
+        </p>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">Is it free?</p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+	It is free for first 25 days per day. You have paid options in
+case you want to edit more photos/images per day.
+
+        </p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+	Paid plans are <a href="/pricing.html">here</a>
+        </p>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold"> Does it work in browser?
+        </p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+	Yes it is a Chrome plugin.
+        </p>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">
+         Can it do image filters?
+        </p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+	It supports upto 40 filters.
+        </p>
+	<ul>
+<li>Fish eye effect </li>
+ <li>Miniature faking </li>
+ <li>Tilt lens </li>
+ <li>Motion blur </li>
+ <li>radial blur </li>
+ <li>Mirrored blur </li>
+ <li>Linear blur </li>
+ <li>Polaroid </li>
+ <li>Sepia </li>
+ <li>Kodachrome </li>
+ <li>Contrast </li>
+ <li>Brightness </li>
+ <li>Greyscale </li>
+ <li>Brownie </li>
+ <li>Vintage </li>
+ <li>Technicolor </li>
+ <li>Pixelate </li>
+ <li>Invert </li>
+ <li>Blur </li>
+ <li>Sharpen </li>
+ <li>Emboss </li>
+ <li>RemoveColor </li>
+ <li>BlacknWhite </li>
+ <li>Vibrance </li>
+ <li>BlendColor </li>
+ <li>BlendImage </li>
+ <li>HueRotate </li>
+ <li>Resize </li>
+ <li>Saturation </li>
+ <li>Gamma </li>
+
+	</ul>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">Can I upgrade anytime?</p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+		Yes. You can upgrade by paying with Stripe.
+        </p>
+      </div>
+
+      <div class="mb-6 md:mb-8 lg:mb-12">
+        <p class="mb-4 font-bold">
+          Will it work on the phone?
+        </p>
+        <p class="text-neutral-500 dark:text-neutral-300">
+		Not now. We will support in future.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+
+
+<div class="container my-24 mx-auto md:px-6">
+  
+  <section class="mb-32 text-center md:text-left">
+    <div
+      class="block rounded-lg bg-white
+shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
+dark:bg-neutral-700">
+      <div class="flex flex-wrap items-center">
+        <div class="block w-full shrink-0 grow-0 basis-auto lg:flex
+lg:w-6/12 xl:w-4/12">
+          <img src="img/126.jpg" alt="Sample image"
+            class="w-full rounded-t-lg lg:rounded-tr-none
+lg:rounded-bl-lg" />
+        </div>
+        <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12
+xl:w-8/12">
+          <div class="px-6 py-12 md:px-12">
+            <h2 class="mb-6 pb-2 text-5xl font-bold">
+             	Edit your photo in minutes 
+            </h2>
+            <p class="mb-6 pb-2 text-neutral-500 dark:text-neutral-300">
+             Intuitive interface 
+            </p>
+            <div class="mb-6 flex flex-wrap">
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Extensive docs with examples
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Filters
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Adjustments
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Shapes
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Stickers
+                </p>
+              </div>
+              <div class="mb-4 w-full md:w-4/12">
+                <p class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-3 h-5 w-5
+text-neutral-900 dark:text-neutral-50">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9
+9 0 0118 0z" /></svg>Format conversions
+                </p>
+              </div>
+            </div>
+            <button type="button"
+              class="inline-block rounded bg-neutral-800 px-12 pt-3.5
+pb-3 text-sm font-medium uppercase leading-normal text-neutral-50
+shadow-[0_4px_9px_-4px_rgba(51,45,45,0.7)] transition duration-150
+ease-in-out hover:bg-neutral-800
+hover:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)]
+focus:bg-neutral-800
+focus:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)]
+focus:outline-none focus:ring-0 active:bg-neutral-900
+active:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)]
+dark:bg-neutral-50 dark:text-neutral-800
+dark:shadow-[0_4px_9px_-4px_rgba(251,251,251,0.3)]
+dark:hover:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]
+dark:focus:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]
+dark:active:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]"
+              data-te-ripple-init data-te-ripple-color="light">
+              Join waitlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+
+
+
+        </main>
+   <div class="sticky top-[100vh]">
+        
+            <footer class="flex flex-col items-center bg-indigo-50 text-center">
+  <div class="container px-6 pt-6">
+    
+    <div class="mb-6 flex justify-center">
+
+      <a
+        href="https://twitter.com/TechieGirish"
+        type="button"
+        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase
+leading-normal  transition duration-150 ease-in-out
+hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="mx-auto h-full w-4"
+          fill="currentColor"
+          viewBox="0 0 24 24">
+          <path
+            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609
+1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127
+1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797
+6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523
+6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949
+4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07
+1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0
+14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+        </svg>
+      </a>
+
+
+      <a
+        href="https://linkedin.com/in/girishvenkatachalam"
+        type="button"
+        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase
+leading-normal  transition duration-150 ease-in-out
+hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="mx-auto h-full w-4"
+          fill="currentColor"
+          viewBox="0 0 24 24">
+          <path
+            d="M4.98 3.5c0 1.381-1.11 2.5-2.48
+2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48
+2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67
+6.029-5.052 6.029
+0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+        </svg>
+      </a>
+
+      <a
+        href="https://github.com/girish1729/photoveda"
+        type="button"
+        class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase
+leading-normal transition duration-150 ease-in-out
+hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="mx-auto h-full w-4"
+          fill="currentColor"
+          viewBox="0 0 24 24">
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207
+11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
+1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304
+3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931
+0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0
+1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138
+3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118
+3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479
+5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576
+4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+        </svg>
+      </a>
+
+    </div>
+    <div class="mb-6 flex justify-center">
+<iframe src="https://photoveda.substack.com/embed" width="480"
+height="320" style="border:1px solid #EEE; background:white;"
+frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    
+    <div class="mb-6">
+      <p>
+        Photoveda is a Chrome plugin with API support for image editing.
+You can apply filters, make image adjustments, add stickers and frames
+and more. 
+      </p>
+    </div>
+
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-4">
+      <div class="mb-6">
+        <h5 class="mb-2.5 font-bold uppercase">Resources</h5>
+
+        <ul class="mb-0 list-none">
+          <li>
+            <a href="/blog" >Tutorials</a>
+          </li>
+          <li>
+            <a href="/api" >API</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h5 class="mb-2.5 font-bold uppercase">Screenshots</h5>
+
+        <ul class="mb-0 list-none">
+          <li>
+            <a href="/screenshots" >Adjustments</a>
+          </li>
+          <li>
+            <a href="/screenshots" >Vignette filter</a>
+          </li>
+          <li>
+            <a href="/screenshots" >Adding frame</a>
+          </li>
+          <li>
+            <a href="/screenshots" >Freehand drawing</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h5 class="mb-2.5 font-bold uppercase">Blogs</h5>
+
+        <ul class="mb-0 list-none">
+          <li>
+            <a href="/blog/adjustments/color-temperature" >How to adjust color
+temperature?</a>
+          </li>
+          <li>
+            <a href="/blog/dimensions" >Changing aspect ratio</a>
+          </li>
+          <li>
+            <a href="/blog/transformations" >Cropping and resizing</a>
+          </li>
+          <li>
+            <a href="/blog/overlays" >Add text overlay</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h5 class="mb-2.5 font-bold uppercase">Support</h5>
+
+        <ul class="mb-0 list-none">
+          <li>
+            <a href="https://twitter.com/TechieGirish" >Twitter</a>
+          </li>
+          <li>
+            <a href="mailto:girish@photoveda.pro" >Email</a>
+          </li>
+          <li>
+            <a href="/faq" >FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="w-full p-4 text-center">
+    © 2023 Copyright
+    <a  href="https://photoveda.pro/"
+      >Photoveda</a
+    >
+  </div>
+  <div class="w-full p-4 ">
+	<a href="/terms-of-service"> Terms &amp; Conditions </a>
+	<a href="/privacy-policy"> Privacy policy </a>
+	<a href="/refund-policy"> Refund policy</a>
+  </div>
+
+</footer>
+
+        
+    </div> 
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer="defer"></script>
+
+<script type="text/javascript">
+
+var nav = document.getElementById('site-menu');
+var header = document.getElementById('top');
+
+window.addEventListener('scroll', function() {
+  if (window.scrollY >=400) { 
+    nav.classList.add('nav-sticky');
+    header.classList.add('pt-scroll');
+  } else {
+    nav.classList.remove('nav-sticky');
+    header.classList.remove('pt-scroll');
+  }
+});
+
+function navToggle() {
+        var btn = document.getElementById('menuBtn');
+        var nav = document.getElementById('menu');
+
+        btn.classList.toggle('open');
+        nav.classList.toggle('flex');
+        nav.classList.toggle('hidden');
+    }
+</script>
+
+</body>
+</html>
