@@ -1,0 +1,37 @@
+---
+title: "API left menu"
+apilist:
+  - name: "Adjustments"
+    description: >
+             Image Adjustments API
+    link: "/api/adjustments"
+  - name: "Filters"
+    description: >
+             Filter API
+    link: "/api/filters"
+
+  - name: "Frames and borders"
+    description: >
+             Frames and borders API
+    link: "/api/frames-borders"
+  - name: "Transformations"
+    description: >
+             Transformation API 
+    link: "/api/transformations"
+  - name: "Shapes"
+    description: >
+             Shapes API
+    link: "/api/shapes"
+  - name: "Stickers"
+    description: >
+             Stickers API
+    link: "/api/stickers"
+  - name: "Dimensions"
+    description: >
+             Change dimensions API
+    link: "/api/dimensions"
+  - name: "Overlays"
+    description: >
+             Overlay text API
+    link: "/api/overlays"
+---

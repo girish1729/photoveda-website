@@ -1,11 +1,10 @@
-baseurl = "https://photoveda.pro"
+baseurl = "/"
 languageCode = "en"
 publishdir = "public"
 canonifyUrls = true
 enableEmoji = true
 theme = "hugo-landing-page"
-disableKinds = ["RSS","taxonomy","taxonomyTerm"] 
-title = "photoveda -  Image editor" 
+title = "Photoveda -  Image editor" 
 [markup.goldmark.renderer]
     unsafe = true
 
@@ -13,14 +12,21 @@ title = "photoveda -  Image editor"
     name = "Girish Venkatachalam"
     email = "girish@photoveda.pro"
 [params]
-    description = "Photoveda - image editor" 
-    images =  ["images/screenshots/photodefault.png"]
+    description = "Photoveda - Image editor" 
+    images =  ["images/screenshots/headshot.jpg"]
+    title =  "Photoveda plugin -  Image editor in Chrome browser"
+    contactLink = "contact"
+    copyright = "© {year} <a href=\"https://www.photoveda.pro/\" target=\"_blank\">Photoveda</a>"
+    logo = "images/photoveda-logo.png"
+    footerlogo = "images/photoveda-logo.png"
+    footerDescription = "A free project to give life to your USB pendrive"
+
 [[params.headermenu]]
    link = "/screenshots"
    title = "Screenshots"
 [[params.headermenu]]
-   link = "/api-docs"
-   title = "API documentation"
+   link = "/api"
+   title = "API"
 [[params.headermenu]]
    link = "/join-waitlist"
    title = "Join waitlist"

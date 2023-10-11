@@ -1,11 +1,15 @@
+---
+title: Privacy policy of Photoveda
+date: 2023-10-10 00:00:01
+description: Photoveda privacy policy
+---
+
 
 # Privacy Policy
 
-Progress-up is an open source file uploader, developed by one person at
-Gayatri Hitech  and is fully open source. And shall continue to be so
-forever.
+Photoveda is an image editing tool developed by one person at
 
-In order to demonstrate the file uploader and file encoding service on this website, we capture and store information about you.
+In order to demonstrate the software on this website, we capture and store information about you.
 
 ## Who is responsible for data protection?
 
@@ -28,15 +32,6 @@ We receive the following data from you:
 All data that passes through demos is only used for demo purposes, and never sold or otherwise given away.
 
 Since we do not store data on data subjects, migration or deletion tools are not applicable.
-
-## Third-party services
-
-We use the following third-party services which also store data about you:
-
-| supplier |subject|data| discarded|
-|----------|-------|----|----------|
-| upload server |end user (data subject)|test files | in 72h|
-
 
 ## Your information and your rights
 
@@ -75,4 +70,4 @@ If you need a countersigned copy of our DPA, please reach out to support.
 
 ## Last Updated
 
-This privacy policy was last updated on Jan 5, 2023.
+This privacy policy was last updated on Oct 6, 2023.

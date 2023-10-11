@@ -1,8 +1,7 @@
 ---
 title: "Pricing details for progress-up"
 subtitle: >
-          Photoveda is free. For large projects you may wish to buy a
-monthl subscription
+          Photoveda is free. For large projects you may wish to buy a monthl subscription
 buttonTarget: "contact"
 itemPrices:
   - package: Personal edition
