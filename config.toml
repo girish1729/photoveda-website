@@ -2,11 +2,14 @@ baseurl = "/"
 languageCode = "en"
 publishdir = "public"
 canonifyUrls = true
+paginate = 5
 enableEmoji = true
 theme = "hugo-landing-page"
 title = "Photoveda -  Image editor" 
 [markup.goldmark.renderer]
     unsafe = true
+    block = true
+    title = true
 
 [author]
     name = "Girish Venkatachalam"
@@ -33,6 +36,9 @@ title = "Photoveda -  Image editor"
 [[params.headermenu]]
   link = "/pricing"
   title = "Pricing"
+[[params.headermenu]]
+  link = "/faq"
+  title = "FAQ"
 
 
 [[params.social]]

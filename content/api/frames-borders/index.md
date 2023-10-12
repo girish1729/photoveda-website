@@ -57,3 +57,35 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 ```
 
 
+
+## 8bit-pixel
+
+## Oval border
+
+## Blurred border 
+
+## CSS 3d beveled frame 
+
+## CSS 3d picture frame 
+
+## CSS picture frame 
+
+## CSS photo frame 
+
+## CSS picture frame 
+
+## Fancy image decoration
+
+## Film  border
+
+## Flickr picture gallery 
+
+## Corner frame 
+
+## Realistic photo frame 
+
+## Picture frame gallery 
+
+## Rainbow frame 
+
+## Sketchy  

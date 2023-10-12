@@ -3,13 +3,17 @@
     {{ partial "navbar.html" . }}
   <h1>{{.Title}}</h1>
  <div class="w-full flex flex-col justify-center items-center">
-   {{ range ( where .Pages "Type" "blog" ) }}
+
+
+   {{ range (where .Pages  "Type" "blog") }}
     <section class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
 <a class='no-underline' href="{{ .Permalink }}" title="{{ .Title }}">
 	<h2 class="text-3xl no-underline"> {{ .Title }}</h2>
      </section>
-    {{ end }}
+   {{ end }}
 	<a href="/blog">Back to blogs</a>
  </div>
+
+{{ template "_internal/pagination.html" . }}
 {{ end }}
 

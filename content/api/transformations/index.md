@@ -6,7 +6,7 @@ description: "Change image orientation, crop or resize with an API"
 ---
 [Get API Key](/api/developer-key)
 
-## Adjust gamma
+## Rotate 
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
@@ -56,10 +56,156 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   });
 ```
 
-## Rotate 
 
 ## Crop
 
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| name      | String | Type of work |
+| gamma      | Integer | Gamma value|
+
+### Sample code
+
+#### Curl
+
+```bash
+curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
+  -F 'file=@/path/to/file.jpg'     \
+  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -o out.png
+
+```
+
+#### Python
+
+```python
+  import requests
+  response = requests.post(
+    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    files={'file': open('/path/to/file.jpg', 'rb')},
+    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
+  )
+```
+
+#### Node.js
+
+```node.js
+  var request = require('request');
+  var fs = require('fs');
+
+  request.post({
+    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    formData: {
+    file: fs.createReadStream('/path/to/file.jpg')
+    },
+    headers: {
+    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
+    },
+    encoding: null
+  }, function(error, response, body) {
+    // console.log(response);
+  });
+```
+
+
 ## Mirror
 
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| name      | String | Type of work |
+| gamma      | Integer | Gamma value|
+
+### Sample code
+
+#### Curl
+
+```bash
+curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
+  -F 'file=@/path/to/file.jpg'     \
+  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -o out.png
+
+```
+
+#### Python
+
+```python
+  import requests
+  response = requests.post(
+    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    files={'file': open('/path/to/file.jpg', 'rb')},
+    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
+  )
+```
+
+#### Node.js
+
+```node.js
+  var request = require('request');
+  var fs = require('fs');
+
+  request.post({
+    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    formData: {
+    file: fs.createReadStream('/path/to/file.jpg')
+    },
+    headers: {
+    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
+    },
+    encoding: null
+  }, function(error, response, body) {
+    // console.log(response);
+  });
+```
+
+
 ## Invert
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| name      | String | Type of work |
+| gamma      | Integer | Gamma value|
+
+### Sample code
+
+#### Curl
+
+```bash
+curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
+  -F 'file=@/path/to/file.jpg'     \
+  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -o out.png
+
+```
+
+#### Python
+
+```python
+  import requests
+  response = requests.post(
+    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    files={'file': open('/path/to/file.jpg', 'rb')},
+    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
+  )
+```
+
+#### Node.js
+
+```node.js
+  var request = require('request');
+  var fs = require('fs');
+
+  request.post({
+    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    formData: {
+    file: fs.createReadStream('/path/to/file.jpg')
+    },
+    headers: {
+    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
+    },
+    encoding: null
+  }, function(error, response, body) {
+    // console.log(response);
+  });
+```
+

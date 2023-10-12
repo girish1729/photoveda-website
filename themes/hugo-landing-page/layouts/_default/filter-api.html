@@ -16,8 +16,8 @@
 {{ with .Site.Data.api}}
       {{ range .filterlist}}
                     <li class="nav-item">
-                        <a class="nav-link text-purple-800
-hover:text-purple-600 truncate" href="{{ .link }}">
+                        <a class="nav-link text-red
+hover:text-purple-600 truncate focus:text-deep-orange-400" href="{{ .link }}">
                             <span class="mr-2">{{ .name }}</span>
                         </a>
                     </li>

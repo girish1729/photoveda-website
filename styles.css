@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.active {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body {
+  font-family: 'Inconsolata';
+  font-size: 16px;
+  line-height: 24px;
+  padding: 50px;
+}
 
 @media (max-width: 576px) {
     .content {
@@ -87,6 +97,7 @@
 
 h2 {
 	font-size: 40px;
+	margin-top: 15px;
 }
 
 h3 {
@@ -101,4 +112,16 @@ table {
 td, th {
   border: 1px solid #333;
   padding: 0 .2em;
+}
+
+.sticker {
+	width: 50px;
+}
+
+.shape {
+	width: 100px;
+}
+
+.dimension {
+	width: 200px;
 }
