@@ -94,14 +94,19 @@ body {
     translateY(0px);
 }
 
+h1 {
+	padding-top: 25px;
+	font-size: 4em;
+}
 
 h2 {
-	font-size: 40px;
-	margin-top: 15px;
+	padding-top: 25px;
+	font-size: 3em;
 }
 
 h3 {
-	font-size: 34px;
+	padding-top: 25px;
+	font-size: 2.3em;
 }
 
 

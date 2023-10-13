@@ -5,7 +5,6 @@ description: Photoveda privacy policy
 ---
 
 
-# Privacy Policy
 
 Photoveda is an image editing tool developed by one person at
 

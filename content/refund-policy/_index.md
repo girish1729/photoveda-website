@@ -1,8 +1,10 @@
+---
+title: Refund policy
+date: 2023-10-10 00:00:01
+description: Photoveda refunds
+---
 
-# Refund policy
 
-
-##Refunds
 
 Subscription fees are non-refundable; except that you may cancel renewed
 subscription by contacting Support within two (2) calendar days after
