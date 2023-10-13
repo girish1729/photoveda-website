@@ -96,16 +96,19 @@ body {
 
 h1 {
 	padding-top: 25px;
+	line-height: 1em;
 	font-size: 4em;
 }
 
 h2 {
 	padding-top: 25px;
+	line-height: 1em;
 	font-size: 3em;
 }
 
 h3 {
 	padding-top: 25px;
+	line-height: 1em;
 	font-size: 2.3em;
 }
 
