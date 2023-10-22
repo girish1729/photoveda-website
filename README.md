@@ -2,9 +2,6 @@
 
 ## Image manipulation plugin
 
-This will eventually have ability to take screenshots, make graphs and
-AI clipart and so on.
-
 At this time we are starting with simple image tricks.
 
 Get payment from [this place](https://extensionpay.com)
@@ -19,8 +16,8 @@ Get payment from [this place](https://extensionpay.com)
 
 ## Competition
 
-- [Kapwing](https://kapwing.com)
 - [Cutout](https://www.cutout.pro)
+- [Pixo](https://www.pixoeditor.com)
 - [img2go](https://img2go.com)
 - [watermarkremover](https://www.watermarkremover.io)
 - [veed.io](https://veed.io)

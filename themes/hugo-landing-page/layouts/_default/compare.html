@@ -1,0 +1,40 @@
+{{ define "main" }}
+    <link rel="stylesheet"  href="/css/normalize.min.css">
+    {{ partial "navbar.html" . }}
+
+	<img  src="{{ .Params.featureImage }}" alt="featured image for API" />
+
+<div class="container mx-auto">
+    <div class="flex flex-row flex-wrap mt-8 py-2">
+
+       <aside class="w-full sm:w-1/3 md:w-1/4 pt-1 px-2">
+            <div class="sticky top-0 p-4 bg-white rounded-xl w-full">
+                <ul class="nav flex flex-col overflow-hidden">
+	{{ $currentPage := . -}}
+{{ with .Site.Data.compare}}
+      {{ range .competition}}
+                    <li class="nav-item">
+      <a class="nav-link text-red outline-none hover:bg-[#FF4B4B]
+truncate active:bg-[#FF4B4B] focus:bg-[#FF4B4B] "href="{{ .link }}" {{ if eq $currentPage .
+}} class="bg-black" aria-current="page" {{ end }}>{{ .name }}</a>
+
+                    </li>
+	{{ end }}
+{{ end }}
+                </ul>
+            </div>
+        </aside>
+
+        <main role="main" class="w-full sm:w-2/3 md:w-3/4 pt-1 px-2">
+            <hr class="my-5">
+            <section class="min-h-screen" id="comparebody">
+                <h1 class="text-2xl mt-5">{{ .Title }} </h1>
+		{{ .Content }}
+            </section>
+
+	<a href="/api">Back to API</a>
+            </main>
+    </div>
+</div>
+
+{{ end }}

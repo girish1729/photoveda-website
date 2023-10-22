@@ -15,14 +15,14 @@ title = "Photoveda -  Image editor"
     name = "Girish Venkatachalam"
     email = "girish@photoveda.pro"
 [params]
-    description = "Photoveda - Image editor" 
+    description = "Photoveda - Image editor [API, browser tool and Chrome plugin]" 
     images =  ["images/screenshots/headshot.jpg"]
-    title =  "Photoveda plugin -  Image editor in Chrome browser"
+    title =  "Photoveda - edit your images"
     contactLink = "contact"
     copyright = "© {year} <a href=\"https://www.photoveda.pro/\" target=\"_blank\">Photoveda</a>"
     logo = "images/photoveda-logo.png"
     footerlogo = "images/photoveda-logo.png"
-    footerDescription = "A free project to give life to your USB pendrive"
+    footerDescription = "Edit your images using the browser"
 
 [[params.headermenu]]
    link = "/api"
@@ -36,6 +36,9 @@ title = "Photoveda -  Image editor"
 [[params.headermenu]]
   link = "/pricing"
   title = "Pricing"
+[[params.headermenu]]
+  link = "/comparison"
+  title = "Compare us"
 [[params.headermenu]]
   link = "/faq"
   title = "FAQ"

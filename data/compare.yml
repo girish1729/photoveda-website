@@ -1,0 +1,49 @@
+---
+title: "Comparison left menu"
+competition:
+
+  - name: Cutout
+    link: "comparison#cutout"
+  - name: img2go
+    link: "comparison#img2go"
+  - name: watermarkremover
+    link: "comparison#watermarkremover"
+  - name: veed.io
+    link: "comparison#veedio"
+  - name: Fotor
+    link: "comparison#fotor"
+  - name: Pixlr
+    link: "comparison#pixlr"
+  - name: Media.io
+    link: "comparison#mediaio"
+  - name: Imgupscaler
+    link: "comparison#imgupscaler"
+  - name: persofoto
+    link: "comparison#persofoto"
+  - name: upscale.media
+    link: "comparison#upscalemedia"
+  - name: letsenhance.io
+    link: "comparison#letsenhanceio"
+  - name: theinpaint
+    link: "comparison#theinpaint"
+  - name: picwish
+    link: "comparison#picwish"
+  - name: photoroom
+    link: "comparison#photoroom"
+  - name: hotpot
+    link: "comparison#hotpot"
+  - name: iloveimg
+    link: "comparison#iloveimg"
+  - name: resizepixel
+    link: "comparison#resizepixel"
+  - name: colourise
+    link: "comparison#colourise"
+  - name: pick.photo
+    link: 'comparison#pickphoto'
+  - name: photoscissors
+    link: "comparison#photoscissors"
+  - name: iresizer
+    link: "comparison#iresizer"
+  - name: photostitcher
+    link: "comparison#photostitcher"
+---
