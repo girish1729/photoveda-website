@@ -1531,6 +1531,11 @@ td, th {
 	width: 200px;
 }
 
+.mugshot {
+	margin: 0 auto;	
+	width: 200px;
+}
+
 .file\:-mx-3::file-selector-button {
   margin-left: -0.75rem;
   margin-right: -0.75rem;

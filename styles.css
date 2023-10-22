@@ -133,3 +133,8 @@ td, th {
 .dimension {
 	width: 200px;
 }
+
+.mugshot {
+	margin: 0 auto;	
+	width: 200px;
+}
