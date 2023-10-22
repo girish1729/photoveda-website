@@ -39,3 +39,8 @@ Get payment from [this place](https://extensionpay.com)
 - [photoscissors](https://photoscissors.com)
 - [iresizer](https://iresizer.com)
 - [photostitcher](https://photostitcher.com)
+
+## Comparison tips
+
+- [Nice](https://getlasso.co/how-to-write-product-comparison-posts/)
+- [one more](https://hackernoon.com/how-to-write-saas-comparison-pages-that-beat-the-competition)
