@@ -25,6 +25,9 @@ title = "Photoveda -  Image editor"
     footerDescription = "Edit your images using the browser"
 
 [[params.headermenu]]
+   link = "https://dancing-cajeta-fd0f2e.netlify.app/"
+   title = "Edit live"
+[[params.headermenu]]
    link = "/api"
    title = "API"
 [[params.headermenu]]

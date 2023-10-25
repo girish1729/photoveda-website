@@ -20,7 +20,6 @@ Get payment from [this place](https://extensionpay.com)
 - [Pixo](https://www.pixoeditor.com)
 - [img2go](https://img2go.com)
 - [watermarkremover](https://www.watermarkremover.io)
-- [veed.io](https://veed.io)
 - [Fotor](https://fotor.com)
 - [Pixlr](https://pixlr.com)
 - [Media.io](https://media.io)
@@ -39,6 +38,7 @@ Get payment from [this place](https://extensionpay.com)
 - [photoscissors](https://photoscissors.com)
 - [iresizer](https://iresizer.com)
 - [photostitcher](https://photostitcher.com)
+- [img.ly](https://img.ly)
 
 ## Comparison tips
 
