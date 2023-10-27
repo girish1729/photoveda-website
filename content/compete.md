@@ -1,17 +1,3 @@
-# Photoveda website
-
-## Image manipulation plugin
-
-At this time we are starting with simple image tricks.
-
-Get payment from [this place](https://extensionpay.com)
-
-
-[Image plugin chrome tutorial](https://freshman.tech/first-chrome-extension/)
-
-[Docs](https://www.cutout.pro/api-document/bg-remover)
-
-[Chrome support](https://support.google.com/chrome_webstore/contact/one_stop_support)
 
 
 ## Competition
@@ -40,7 +26,3 @@ Get payment from [this place](https://extensionpay.com)
 - [photostitcher](https://photostitcher.com)
 - [img.ly](https://img.ly)
 
-## Product comparison page tips
-
-- [Nice](https://getlasso.co/how-to-write-product-comparison-posts/)
-- [one more](https://hackernoon.com/how-to-write-saas-comparison-pages-that-beat-the-competition)
