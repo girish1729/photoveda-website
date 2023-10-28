@@ -23,4 +23,29 @@ function navToggle() {
         nav.classList.toggle('flex');
         nav.classList.toggle('hidden');
     }
+
+function decodeHTML(html) {
+    var txt = document.createElement("textarea");
+    txt.innerHTML = html;
+    return txt.value;
+}
+
+runAPI = document.getElementById('runAPI');
+
+function showOutput(data) {
+    const element = document.querySelector('#rest-output');
+    element.innerHTML = '<pre>' + JSON.stringify(data, null, " ") + '</pre>';
+}
+
+runAPI.addEventListener("click", function() {
+    code = document.getElementById('codeSample');
+
+    var codeTxt = decodeHTML(code.innerHTML);
+
+    var lines = codeTxt.split('\n');
+    lines.splice(lines.length - 2, 0, " showOutput(data); ");
+    codeTxt = lines.join("\n");
+    eval(codeTxt);
+});
+
 </script>

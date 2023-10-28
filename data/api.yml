@@ -34,6 +34,10 @@ apilist:
     description: >
              Overlay text API
     link: "/api/overlays"
+  - name: "Text Overlay"
+    description: >
+             Overlay text API
+    link: "/api/textoverlay"
 adjustlist:
 
   - name: Brightness
