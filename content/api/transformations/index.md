@@ -89,6 +89,10 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 #### Node.js
 
+{{< rawhtml >}}
+ <div class='editable' onClick="this.contentEditable='true';">
+		<strong> FIXED </strong>
+{{< /rawhtml >}}
 ```node.js
   var request = require('request');
   var fs = require('fs');
@@ -106,6 +110,9 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
     // console.log(response);
   });
 ```
+{{< rawhtml >}}
+</div>
+{{< /rawhtml >}}
 
 
 ## Mirror

@@ -26,3 +26,45 @@
 - [photostitcher](https://photostitcher.com)
 - [img.ly](https://img.ly)
 
+{{< rawhtml >}}
+    <div class="grid gap-x-6 md:grid-cols-3 lg:grid-cols-3 xl:gap-x-12">
+	<div>
+{{< /rawhtml >}}
+- [photostitcher](https://photostitcher.com)
+- [img.ly](https://img.ly)
+{{< rawhtml >}}
+	</div>
+{{< /rawhtml >}}
+
+
+{{< rawhtml >}}
+	<div>
+{{< /rawhtml >}}
+
+- [pick.photo](https://www.pick.photo)
+- [photoscissors](https://photoscissors.com)
+- [iresizer](https://iresizer.com)
+{{< rawhtml >}}
+	</div>
+{{< /rawhtml >}}
+
+
+
+{{< rawhtml >}}
+	<div>
+{{< /rawhtml >}}
+- [persofoto](https://persofoto.com)
+- [upscale.media](https://upscale.media)
+- [letsenhance.io](https://letsenhance.io)
+- [theinpaint](https://theinpaint.com)
+-
+- [pick.photo](https://www.pick.photo)
+- [photoscissors](https://photoscissors.com)
+- [iresizer](https://iresizer.com)
+{{< rawhtml >}}
+	</div>
+   </div>
+{{< /rawhtml >}}
+
+
+
