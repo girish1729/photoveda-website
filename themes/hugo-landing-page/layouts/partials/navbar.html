@@ -12,12 +12,14 @@ src="/images/photoveda-logo.svg" alt="Photoveda Logo" class="w-32"></a>
     </div>
     <div id="menu" class="opacity-100 bg-white w-full sm:w-auto self-end sm:self-center hidden sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0">
 	{{ $currentPage := . -}}
-        {{ range .Site.Params.headermenu }}
+     {{ range .Site.Params.headermenu }}
+	{{ if eq .title "Join waitlist" }}
         <a class="text-md hover:bg-amber-500 text-md text-center w-full
 no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 {{ if eq $currentPage .  }}
-bg-yellow {{ end }}" href=" {{ .link }}"
-
->{{ .title }}</a>
+bg-yellow {{ end }}" href=" {{ .link }}" target="blank" >{{ .title }}</a>
+	{{ else }}
+        <a class="text-md hover:bg-amber-500 text-md text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 {{ if eq $currentPage .  }} bg-yellow {{ end }}" href=" {{ .link }}" >{{ .title }}</a>
 	{{ end }}
+    {{ end }}
     </div>
 </nav>

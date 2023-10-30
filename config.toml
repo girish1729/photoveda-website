@@ -31,7 +31,7 @@ title = "Photoveda -  Image editor"
    link = "/api"
    title = "API"
 [[params.headermenu]]
-   link = "/join-waitlist"
+   link = "https://photoveda.substack.com"
    title = "Join waitlist"
 [[params.headermenu]]
    link = "/blog"
