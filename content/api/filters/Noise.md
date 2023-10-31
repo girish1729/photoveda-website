@@ -1,14 +1,14 @@
 ---
-title: "Vintage API"
+title: "HueRotate API"
 date: "2023-10-10 00:00:01"
 layout: "filter-api"
 draft: false
-description: "Apply Vintage filter"
+description: "Hue rotate image"
 ---
 
 [Get API Key](/api/developer-key)
 
-{{< figure title="Vintage" src="/filters/vintage.png"  >}}
+{{< figure title="Noise" src="/filters/noise.png"  >}}
 
 ## 1a. Adjust gamma (Binary stream)
 
@@ -63,10 +63,10 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
     // console.log(response);
   });
 ```
+
 {{< rawhtml >}}
 </div>
 {{< /rawhtml >}}
-
 ### Request description
 
 ### Response description
@@ -213,6 +213,10 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 #### Node.js
 
+{{< rawhtml >}}
+ <div class='editable' onClick="this.contentEditable='true';">
+		<strong> FIXED </strong>
+{{< /rawhtml >}}
 ```node.js
   var request = require('request');
   var fs = require('fs');
@@ -231,6 +235,9 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   });
 ```
 
+{{< rawhtml >}}
+</div>
+{{< /rawhtml >}}
 ### Request description
 
 ### Response description

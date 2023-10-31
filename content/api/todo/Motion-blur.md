@@ -1,14 +1,12 @@
 ---
-title: "Vintage API"
+title: "Motion blur API"
 date: "2023-10-10 00:00:01"
 layout: "filter-api"
 draft: false
-description: "Apply Vintage filter"
+description: "Apply motion blur"
 ---
 
 [Get API Key](/api/developer-key)
-
-{{< figure title="Vintage" src="/filters/vintage.png"  >}}
 
 ## 1a. Adjust gamma (Binary stream)
 

@@ -1,14 +1,12 @@
 ---
-title: "Vintage API"
+title: "Mirrored blur API"
 date: "2023-10-10 00:00:01"
 layout: "filter-api"
 draft: false
-description: "Apply Vintage filter"
+description: "Apply mirror blur on image"
 ---
 
 [Get API Key](/api/developer-key)
-
-{{< figure title="Vintage" src="/filters/vintage.png"  >}}
 
 ## 1a. Adjust gamma (Binary stream)
 
@@ -63,9 +61,6 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
     // console.log(response);
   });
 ```
-{{< rawhtml >}}
-</div>
-{{< /rawhtml >}}
 
 ### Request description
 
@@ -85,6 +80,9 @@ image with background removed
     "time": 1590462453264
 }
 ```
+{{< rawhtml >}}
+</div>
+{{< /rawhtml >}}
 
 #### Error
 

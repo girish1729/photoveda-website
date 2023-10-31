@@ -1,14 +1,12 @@
 ---
-title: "Vintage API"
+title: "Fish eye filter"
 date: "2023-10-10 00:00:01"
 layout: "filter-api"
 draft: false
-description: "Apply Vintage filter"
+description: "Apply fish eye filter"
 ---
 
 [Get API Key](/api/developer-key)
-
-{{< figure title="Vintage" src="/filters/vintage.png"  >}}
 
 ## 1a. Adjust gamma (Binary stream)
 
@@ -63,10 +61,10 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
     // console.log(response);
   });
 ```
+
 {{< rawhtml >}}
 </div>
 {{< /rawhtml >}}
-
 ### Request description
 
 ### Response description

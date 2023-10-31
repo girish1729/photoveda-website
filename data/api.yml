@@ -52,6 +52,7 @@ adjustlist:
 #    link: "/api/adjustments/lighting"
 #  - name: Shadows
 #    link: "/api/adjustments/shadows"
+
 filterlist:
 
   - name: BlendColor
@@ -62,10 +63,6 @@ filterlist:
     link: "/api/filters/brownie"
   - name: Emboss
     link: "/api/filters/emboss"
-  - name: Fisheye
-    link: "/api/filters/fisheye"
-  - name: Gamma
-    link: "/api/filters/gamma"
   - name: Greyscale
     link: "/api/filters/greyscale"
   - name: HueRotate
@@ -74,18 +71,10 @@ filterlist:
     link: "/api/filters/invert"
   - name: Kodachrome
     link: "/api/filters/kodachrome"
-  - name: Linear-blur
-    link: "/api/filters/linear-blur"
-  - name: Miniature-faking
-    link: "/api/filters/miniature-faking"
-  - name: Mirrored-blur
-    link: "/api/filters/mirrored-blur"
-  - name: Motion-blur
-    link: "/api/filters/motion-blur"
   - name: Pixelate
     link: "/api/filters/pixelate"
-  - name: Radial-blur
-    link: "/api/filters/radial-blur"
+  - name: Noise
+    link: "/api/filters/noise"
   - name: RemoveColor
     link: "/api/filters/removecolor"
   - name: Sepia
@@ -94,8 +83,6 @@ filterlist:
     link: "/api/filters/sharpen"
   - name: Technicolor
     link: "/api/filters/technicolor"
-  - name: Tilt-lens
-    link: "/api/filters/tilt-lens"
   - name: Vibrance
     link: "/api/filters/vibrance"
   - name: Vignette
@@ -106,15 +93,15 @@ misc:
   - name: EXIF
     link: "/api/misc/exif"
   - name: Thumbnail
-    link: "/api/misc/vintage"
+    link: "/api/misc/thumbnail"
+transformations:
+  - name: Crop
+    link: "/api/transformations/crop"
+  - name: Rotate
+    link: "/api/transformations/rotate"
 dimensions:
   - name: Scale
-    link: "/api/filters/vintage"
+    link: "/api/dimensions/scaling"
   - name: Aspect ratio
-    link: "/api/filters/vintage"
-  - name: Crop
-    link: "/api/filters/vintage"
-  - name: Rotate
-    link: "/api/filters/vintage"
-
+    link: "/api/dimensions/aspectratio"
 ---

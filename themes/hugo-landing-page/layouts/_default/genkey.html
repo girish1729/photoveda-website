@@ -1,0 +1,217 @@
+{{ define "main" }}
+    <link rel="stylesheet"  href="/css/normalize.min.css">
+    {{ partial "navbar.html" . }}
+    <div id="{{ .Title }}" class="w-full ">
+            <h2 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">{{ .Title }}</h2>
+ <meta
+     name="description"
+     content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if
+.Site.Params.Description }}{{ .Site.Params.Description }}{{ else
+}}Something hardcoded{{ end }}"
+   />
+
+<section class="bg-blue-200 rounded-md">
+  <div id="genkeyform" class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+      <div class="lg:col-span-2 lg:py-32">
+        <h2 class="max-w-xl text-3xl">
+		Generate API key 
+       </h2>
+
+        <div class="mt-8">
+          <a href="mailto:support@photoveda.pro" class="text-xl font-bold ">
+		Contact support
+          </a>
+	 <p>
+          <a href="/pricing" class="text-xl font-bold ">
+		Pricing page
+          </a>
+	</p>
+
+        </div>
+      </div>
+
+      <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+        <form name="Genkey" action="http://localhost:3000/v1/api/createUser" class="space-y-4">
+          <div>
+            <label class="sr-only" for="name">Name</label>
+            <input
+              class="w-full rounded-lg border-gray-200 p-3 text-sm"
+              placeholder="Name"
+              type="text"
+              id="name"
+            />
+          </div>
+
+          <div>
+            <div>
+              <label class="sr-only" for="email">Email</label>
+              <input
+                class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Email address"
+                type="email"
+                id="email"
+              />
+            </div>
+
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 text-center
+sm:grid-cols-3">
+            <div>
+              <input
+                class="peer sr-only"
+                id="free"
+                type="radio"
+                tabindex="-1"
+                name="plan"
+		value="free"
+               checked />
+
+              <label
+                for="free"
+                class="block w-full rounded-lg border border-gray-200
+p-3 text-gray-600 hover:border-black peer-checked:border-black
+peer-checked:bg-blue-500 peer-checked:text-white"
+                tabindex="0"
+              >
+                <span class="text-sm"> Free </span>
+              </label>
+            </div>
+
+            <div>
+              <input
+                class="peer sr-only"
+                id="pro"
+		value="pro"
+                type="radio"
+                tabindex="-1"
+                name="plan"
+              />
+
+              <label
+                for="pro"
+                class="block w-full rounded-lg border border-gray-200
+p-3 text-gray-600 hover:border-black peer-checked:border-black
+peer-checked:bg-blue-500 peer-checked:text-white"
+                tabindex="0"
+              >
+                <span class="text-sm"> Pro </span>
+              </label>
+            </div>
+
+            <div>
+              <input
+                class="peer sr-only"
+                id="premium"
+		value="premimum"
+                type="radio"
+                tabindex="-1"
+                name="plan"
+              />
+
+              <label
+                for="premium"
+                class="block w-full rounded-lg border border-gray-200
+p-3 text-gray-600 hover:border-black peer-checked:border-black
+peer-checked:bg-blue-500 peer-checked:text-white"
+                tabindex="0"
+              >
+                <span class="text-sm"> Premium </span>
+              </label>
+            </div>
+          </div>
+          <div class="mt-4">
+		<center>
+            <button
+              type="submit"
+              class="inline-block w-full rounded-lg bg-amber-700 px-5 py-3
+font-medium text-white text-xl sm:w-auto"
+            >
+              Generate key
+            </button>
+		</center>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section >
+  <div  id='keyarea' class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div  class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+	 <button id='copyBut' onclick="copyToClipboard('showkey')"
+class="inline-block w-full rounded-lg bg-brown-200 px-1 py-1 font-medium text-white " > Copy </button>
+	     <pre>
+		Your API key is : <span id='showkey'></span>
+	    </pre>
+	
+  </div>
+ </div> 
+</section>
+
+    
+</div>
+
+
+<script>
+function copyToClipboard(elementId) {
+var aux = document.createElement("input");
+aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+document.body.appendChild(aux);
+aux.select();
+document.execCommand("copy");
+ butText = document.getElementById('copyBut').innerHTML = 'Copied';
+document.body.removeChild(aux);
+}
+
+	document.getElementById('genkeyform').style.display = 'block';
+	document.getElementById('keyarea').style.display = 'none';
+	document.Genkey.addEventListener('submit', (e) => {
+		e.preventDefault();
+		name = document.getElementById('name').value;
+		email = document.getElementById('email').value;
+		plan = document.querySelector('input[name="plan"]:checked').value;
+		console.log(name, email, plan);
+		localStorage.setItem('photoveda_name', name);
+		localStorage.setItem('photoveda_email', email);
+		localStorage.setItem('photoveda_plan', plan);
+		let form = new FormData();
+		form.append('name', name);
+		form.append('email', email);
+		form.append('plan', plan);
+   fetch(e.target.action, {
+        method: 'post',
+        body: form
+    }).then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return (response.json()); 
+    }).then((json) => {
+	console.log(json);
+	if(json.code != 100) {
+		/* XXX user exists already */		
+	}
+	document.getElementById('genkeyform').style.display = 'none';
+	document.getElementById('keyarea').style.display = 'block';
+	var key = json.key.trim();
+	key = key.replace('\n', '');
+		console.log(key);
+	localStorage.setItem('photoveda_key', key);
+	document.getElementById('showkey').innerHTML = key;
+	
+    }).catch((error) => {
+	console.log(error);
+	console.log("Submit failed");
+    });
+		
+});
+</script>
+
+{{ end }}
+
+
+
+
