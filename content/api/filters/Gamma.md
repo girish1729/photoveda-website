@@ -6,7 +6,6 @@ draft: false
 description: "Apply Gamma filter"
 ---
 
-[Get API Key](/api/developer-key)
 
 ## 1a. Adjust gamma (Binary stream)
 
@@ -22,7 +21,7 @@ description: "Apply Gamma filter"
 ```bash
 curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -f 'https://www.cutout.pro/v1/matting2?mattingType=6&crop=true' \
   -o out.png
 
 ```
@@ -32,7 +31,7 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 ```python
   import requests
   response = requests.post(
-    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    'https://www.cutout.pro/v1/matting2?mattingType=6',
     files={'file': open('/path/to/file.jpg', 'rb')},
     headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
   )
@@ -49,7 +48,7 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   var fs = require('fs');
 
   request.post({
-    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    url: 'https://www.cutout.pro/v1/matting2?mattingType=6',
     formData: {
     file: fs.createReadStream('/path/to/file.jpg')
     },
@@ -111,7 +110,7 @@ image with background removed
 ```bash
 curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -f 'https://www.cutout.pro/v1/matting2?mattingType=6&crop=true' \
   -o out.png
 
 ```
@@ -121,7 +120,7 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 ```python
   import requests
   response = requests.post(
-    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    'https://www.cutout.pro/v1/matting2?mattingType=6',
     files={'file': open('/path/to/file.jpg', 'rb')},
     headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
   )
@@ -134,7 +133,7 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   var fs = require('fs');
 
   request.post({
-    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    url: 'https://www.cutout.pro/v1/matting2?mattingType=6',
     formData: {
     file: fs.createReadStream('/path/to/file.jpg')
     },
@@ -193,7 +192,7 @@ image with background removed
 ```bash
 curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -f 'https://www.cutout.pro/v1/matting2?mattingType=6&crop=true' \
   -o out.png
 
 ```
@@ -203,7 +202,7 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 ```python
   import requests
   response = requests.post(
-    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    'https://www.cutout.pro/v1/matting2?mattingType=6',
     files={'file': open('/path/to/file.jpg', 'rb')},
     headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
   )
@@ -216,7 +215,7 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   var fs = require('fs');
 
   request.post({
-    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+    url: 'https://www.cutout.pro/v1/matting2?mattingType=6',
     formData: {
     file: fs.createReadStream('/path/to/file.jpg')
     },

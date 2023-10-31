@@ -6,16 +6,14 @@ draft: false
 description: "Apply blur effect"
 ---
 
-[Get API Key](/api/developer-key)
 
 {{< figure title="Blur" src="/filters/blur.png"  >}}
 
-## 1a. Adjust gamma (Binary stream)
+## Blur filter
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| name      | String | Type of work |
-| gamma      | Integer | Gamma value|
+| blur      | Float | Blur radius|
 
 ### Sample code
 
@@ -24,7 +22,8 @@ description: "Apply blur effect"
 ```bash
 curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -F 'blur=0.3' \
+  -f 'http://localhost:3000/v1/filter/Blur' \
   -o out.png
 
 ```
@@ -33,10 +32,11 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 ```python
   import requests
-  response = requests.post(
-    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+  payload = dict(blur=0.3 )
+  response = requests.post( 'http://localhost:3000/v1/filter/Blur',
     files={'file': open('/path/to/file.jpg', 'rb')},
-    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
+    data = payload,
+    headers={'KEY': 'INSERT_YOUR_API_KEY_HERE'},
   )
 ```
 
@@ -44,221 +44,27 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 {{< rawhtml >}}
  <div class='editable' onClick="this.contentEditable='true';">
-		<strong> FIXED </strong>
 {{< /rawhtml >}}
-```node.js
-  var request = require('request');
-  var fs = require('fs');
 
-  request.post({
-    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
-    formData: {
-    file: fs.createReadStream('/path/to/file.jpg')
-    },
+```node.js
+const requestOptions = {
+    method: 'POST',
     headers: {
-    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
+    'key': 'INSERT_YOUR_API_KEY_HERE',
+    'Content-Type': 'application/json'
     },
-    encoding: null
-  }, function(error, response, body) {
-    // console.log(response);
-  });
+    body: JSON.stringify({ title: 'Blur filter', blur: 0.3 })
+};
+fetch('http://localhost:3000/v1/filter/Blur', requestOptions)
+    .then(response => response.json())
+    .then(data =>  {
+		console.log(data);
+    }); 
 ```
 
 {{< rawhtml >}}
-</div>
+ </div>
 {{< /rawhtml >}}
-### Request description
 
-### Response description
-
-#### Normal return
-
-```bash
-
-{
-    "code": 0,
-    "data": {
-        "imageBase64: "iVBORw0KGgo..." //base64 encoded string of the
-image with background removed
-    },
-    "msg": null,
-    "time": 1590462453264
-}
-```
-
-#### Error
-
-```bash
-{
-  "code": 1001, //
-  "data": null
-  "msg": 'Insufficient balance',
-  "time": 1590462453264
-}
-```
-
----
-
-## 1b. Adjust gamma (Base64)
-
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| name      | String | Type of work |
-| gamma      | Integer | Gamma value|
-
-### Sample code
-
-#### Curl
-
-```bash
-curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
-  -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
-  -o out.png
-
-```
-
-#### Python
-
-```python
-  import requests
-  response = requests.post(
-    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
-    files={'file': open('/path/to/file.jpg', 'rb')},
-    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
-  )
-```
-
-#### Node.js
-
-```node.js
-  var request = require('request');
-  var fs = require('fs');
-
-  request.post({
-    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
-    formData: {
-    file: fs.createReadStream('/path/to/file.jpg')
-    },
-    headers: {
-    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
-    },
-    encoding: null
-  }, function(error, response, body) {
-    // console.log(response);
-  });
-```
-
-### Request description
-
-### Response description
-
-#### Normal return
-
-```bash
-
-{
-    "code": 0,
-    "data": {
-        "imageBase64: "iVBORw0KGgo..." //base64 encoded string of the
-image with background removed
-    },
-    "msg": null,
-    "time": 1590462453264
-}
-```
-
-#### Error
-
-```bash
-{
-  "code": 1001, //
-  "data": null
-  "msg": 'Insufficient balance',
-  "time": 1590462453264
-}
-```
-
----
-
-## 1c. Adjust gamma (Base64 encoded imageURL)
-
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| name      | String | Type of work |
-| gamma      | Integer | Gamma value|
-
-### Sample code
-
-#### Curl
-
-```bash
-curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
-  -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
-  -o out.png
-
-```
-
-#### Python
-
-```python
-  import requests
-  response = requests.post(
-    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
-    files={'file': open('/path/to/file.jpg', 'rb')},
-    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
-  )
-```
-
-#### Node.js
-
-```node.js
-  var request = require('request');
-  var fs = require('fs');
-
-  request.post({
-    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
-    formData: {
-    file: fs.createReadStream('/path/to/file.jpg')
-    },
-    headers: {
-    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
-    },
-    encoding: null
-  }, function(error, response, body) {
-    // console.log(response);
-  });
-```
-
-### Request description
-
-### Response description
-
-#### Normal return
-
-```bash
-
-{
-    "code": 0,
-    "data": {
-        "imageBase64: "iVBORw0KGgo..." //base64 encoded string of the
-image with background removed
-    },
-    "msg": null,
-    "time": 1590462453264
-}
-```
-
-#### Error
-
-```bash
-{
-  "code": 1001, //
-  "data": null
-  "msg": 'Insufficient balance',
-  "time": 1590462453264
-}
-```
 
 

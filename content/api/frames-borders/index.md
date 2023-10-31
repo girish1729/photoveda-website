@@ -4,23 +4,26 @@ date: "2023-10-10 00:00:01"
 layout: "api"
 description: "Add frames and borders to images using API"
 ---
-[Get API Key](/api/developer-key)
 
-## Adjust gamma
+
+## Add text Overlay to images
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| name      | String | Type of work |
-| gamma      | Integer | Gamma value|
+| color      | Integer | HTML color code|
+| width      | Integer | Pixels|
+
 
 ### Sample code
 
 #### Curl
 
 ```bash
-curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
+curl -H 'key: INSERT_YOUR_API_KEY_HERE' \
   -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -F 'color=red' \
+  -F 'width=40' \
+  -f 'http://localhost:3000/v1/frame/addFrame' \
   -o out.png
 
 ```
@@ -29,10 +32,14 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 ```python
   import requests
+
+
+  payload = dict(color='red', width=40 );
   response = requests.post(
-    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+'http://localhost:3000/v1/frame/addFrame',
     files={'file': open('/path/to/file.jpg', 'rb')},
-    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
+    data = payload,
+    headers={'key': 'INSERT_YOUR_API_KEY_HERE'},
   )
 ```
 
@@ -40,59 +47,30 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 {{< rawhtml >}}
  <div class='editable' onClick="this.contentEditable='true';">
-		<strong> FIXED </strong>
 {{< /rawhtml >}}
+
 ```node.js
-  var request = require('request');
-  var fs = require('fs');
-
-  request.post({
-    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
-    formData: {
-    file: fs.createReadStream('/path/to/file.jpg')
-    },
+const requestOptions = {
+    method: 'POST',
     headers: {
-    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
+    'key': 'INSERT_YOUR_API_KEY_HERE',
+    'Content-Type': 'application/json'
     },
-    encoding: null
-  }, function(error, response, body) {
-    // console.log(response);
-  });
+    body: JSON.stringify({ title: 'Add frame' 
+    color:'red',
+    width: 40, 
+})
+};
+fetch('http://localhost:3000/v1/frame/addFrame', requestOptions)
+    .then(response => response.json())
+    .then(data =>  {
+		console.log(data);
+    }); 
 ```
+
 {{< rawhtml >}}
-</div>
+ </div>
 {{< /rawhtml >}}
 
 
 
-## 8bit-pixel
-
-## Oval border
-
-## Blurred border 
-
-## CSS 3d beveled frame 
-
-## CSS 3d picture frame 
-
-## CSS picture frame 
-
-## CSS photo frame 
-
-## CSS picture frame 
-
-## Fancy image decoration
-
-## Film  border
-
-## Flickr picture gallery 
-
-## Corner frame 
-
-## Realistic photo frame 
-
-## Picture frame gallery 
-
-## Rainbow frame 
-
-## Sketchy  

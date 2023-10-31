@@ -6,14 +6,12 @@ draft: false
 description: "Adjust your image saturation "
 ---
 
-[Get API Key](/api/developer-key)
 
-## Adjust saturation
+## Saturation adjustment
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| name      | String | Type of work |
-| gamma      | Integer | Gamma value|
+| saturation | Float | Saturation val between 0 and 1|
 
 ### Sample code
 
@@ -22,7 +20,8 @@ description: "Adjust your image saturation "
 ```bash
 curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -F 'brightness=0.3' \
+  -f 'http://localhost:3000/v1/adjust/Saturation' \
   -o out.png
 
 ```
@@ -31,10 +30,11 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 ```python
   import requests
-  response = requests.post(
-    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+  payload = dict(brightness=0.3 )
+  response = requests.post( 'http://localhost:3000/v1/adjust/Saturation',
     files={'file': open('/path/to/file.jpg', 'rb')},
-    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
+    data = payload,
+    headers={'KEY': 'INSERT_YOUR_API_KEY_HERE'},
   )
 ```
 
@@ -42,30 +42,27 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 {{< rawhtml >}}
  <div class='editable' onClick="this.contentEditable='true';">
-		<strong> FIXED </strong>
 {{< /rawhtml >}}
-```node.js
-  var request = require('request');
-  var fs = require('fs');
 
-  request.post({
-    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
-    formData: {
-    file: fs.createReadStream('/path/to/file.jpg')
-    },
+```node.js
+const requestOptions = {
+    method: 'POST',
     headers: {
-    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
+    'key': 'INSERT_YOUR_API_KEY_HERE',
+    'Content-Type': 'application/json'
     },
-    encoding: null
-  }, function(error, response, body) {
-    // console.log(response);
-  });
+    body: JSON.stringify({ title: 'Adjust brightness', brightness: 0.3 })
+};
+fetch('http://localhost:3000/v1/adjust/Saturation', requestOptions)
+    .then(response => response.json())
+    .then(data =>  {
+		console.log(data);
+    }); 
 ```
 
 {{< rawhtml >}}
  </div>
 {{< /rawhtml >}}
-### Request description
 
-### Response description
+
 

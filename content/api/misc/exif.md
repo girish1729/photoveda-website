@@ -6,14 +6,7 @@ draft: false
 description: "Dump exif data from photo"
 ---
 
-[Get API Key](/api/developer-key)
-
 ## Get EXIF data from photograph
-
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| name      | String | Type of work |
-| gamma      | Integer | Gamma value|
 
 ### Sample code
 
@@ -22,7 +15,7 @@ description: "Dump exif data from photo"
 ```bash
 curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
   -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.cutout.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -f 'http://localhost:3000/v1/misc/exifData' \
   -o out.png
 
 ```
@@ -32,9 +25,9 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 ```python
   import requests
   response = requests.post(
-    'https://www.cutout.pro/api/v1/matting2?mattingType=6',
+'http://localhost:3000/v1/misc/exifData',
     files={'file': open('/path/to/file.jpg', 'rb')},
-    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
+    headers={'KEY': 'INSERT_YOUR_API_KEY_HERE'},
   )
 ```
 
@@ -42,30 +35,26 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 {{< rawhtml >}}
  <div class='editable' onClick="this.contentEditable='true';">
-		<strong> FIXED </strong>
 {{< /rawhtml >}}
-```node.js
-  var request = require('request');
-  var fs = require('fs');
 
-  request.post({
-    url: 'https://www.cutout.pro/api/v1/matting2?mattingType=6',
-    formData: {
-    file: fs.createReadStream('/path/to/file.jpg')
-    },
+```node.js
+const requestOptions = {
+    method: 'POST',
     headers: {
-    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
-    },
-    encoding: null
-  }, function(error, response, body) {
-    // console.log(response);
-  });
+    'key': 'INSERT_YOUR_API_KEY_HERE',
+    'Content-Type': 'application/json'
+    }
+};
+fetch('http://localhost:3000/v1/misc/exifData', requestOptions)
+    .then(response => response.json())
+    .then(data =>  {
+		console.log(data);
+    }); 
 ```
 
 {{< rawhtml >}}
  </div>
 {{< /rawhtml >}}
-### Request description
 
-### Response description
+
 

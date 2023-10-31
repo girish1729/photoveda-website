@@ -6,8 +6,6 @@ draft: false
 description: "Add a text overlay to images using API"
 ---
 
-[Get API Key](/api/developer-key)
-
 ## Add text Overlay to images
 
 | Parameter | Type | Description |
@@ -18,14 +16,19 @@ description: "Add a text overlay to images using API"
 | posX      | Integer | X coordinate position|
 | posY      | Integer | Y coordinate position|
 
+
 ### Sample code
 
 #### Curl
 
 ```bash
-curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
+curl -H 'key: INSERT_YOUR_API_KEY_HERE' \
   -F 'file=@/path/to/file.jpg'     \
-  -f 'https://www.photoveda.pro/api/v1/matting2?mattingType=6&crop=true' \
+  -F 'font=Text8' \
+  -F 'size=40' \
+  -F 'txt=Photoveda rocks' \
+  -F 'color=red' \
+  -f 'http://localhost:3000/v1/text/textOverlay' \
   -o out.png
 
 ```
@@ -34,10 +37,15 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 
 ```python
   import requests
+
+
+  payload = dict(font='Text8', size=40, txt='Photoveda rocks',
+color='red');
   response = requests.post(
-    'https://www.photoveda.pro/api/v1/matting2?mattingType=6',
+'http://localhost:3000/v1/text/textOverlay',
     files={'file': open('/path/to/file.jpg', 'rb')},
-    headers={'APIKEY': 'INSERT_YOUR_API_KEY_HERE'},
+    data = payload,
+    headers={'key': 'INSERT_YOUR_API_KEY_HERE'},
   )
 ```
 
@@ -46,40 +54,22 @@ curl -H 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
 {{< rawhtml >}}
  <div class='editable' onClick="this.contentEditable='true';">
 {{< /rawhtml >}}
-```node.js
-  var request = require('request');
-  var fs = require('fs');
-
-  request.post({
-    url: 'https://www.photoveda.pro/api/v1/matting2?mattingType=6',
-    formData: {
-    file: fs.createReadStream('/path/to/file.jpg')
-    },
-    headers: {
-    'APIKEY': 'INSERT_YOUR_API_KEY_HERE'
-    },
-    encoding: null
-  }, function(error, response, body) {
-    // console.log(response);
-  });
-```
-{{< rawhtml >}}
-</div>
-{{< /rawhtml >}}
-
-
-{{< rawhtml >}}
- <div class='editable' onClick="this.contentEditable='true';">
-{{< /rawhtml >}}
 
 ```node.js
- // Simple POST request with a JSON body using fetch
 const requestOptions = {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ title: 'Fetch POST Request Example' })
+    headers: {
+    'key': 'INSERT_YOUR_API_KEY_HERE',
+    'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ title: 'Blur filter' 
+    font:'Text8',
+    size: 40, 
+    txt: "Photoveda rocks", 
+    color:'red' 
+})
 };
-fetch('https://reqres.in/api/articles', requestOptions)
+fetch('http://localhost:3000/v1/text/textOverlay', requestOptions)
     .then(response => response.json())
     .then(data =>  {
 		console.log(data);
@@ -91,36 +81,4 @@ fetch('https://reqres.in/api/articles', requestOptions)
 {{< /rawhtml >}}
 
 
-## Sample text designs
 
-{{< rawhtml >}}
-<div class="grid gap-x-6 md:grid-cols-2 lg:grid-cols-2 xl:gap-x-12">
-<div>
-{{< /rawhtml >}}
-
-- {{< figure title="Text2" src="/textStyles/text2.png" class="textStyle" >}}
-- {{< figure title="Text3" src="/textStyles/text3.png" class="textStyle" >}}
-- {{< figure title="Text4" src="/textStyles/text4.png" class="textStyle" >}}
-- {{< figure title="Text5" src="/textStyles/text5.png" class="textStyle" >}}
-- {{< figure title="Text6" src="/textStyles/text6.png" class="textStyle" >}}
-
-{{< rawhtml >}}
-  </div>
-  <div>
-{{< /rawhtml >}}
-- {{< figure title="Text7" src="/textStyles/text7.png" class="textStyle" >}}
-- {{< figure title="Text8" src="/textStyles/text8.png" class="textStyle" >}}
-- {{< figure title="Text9" src="/textStyles/text9.png" class="textStyle" >}}
-- {{< figure title="Text10" src="/textStyles/text10.png" class="textStyle" >}}
-- {{< figure title="Text11" src="/textStyles/text11.png" class="textStyle" >}}
-
-{{< rawhtml >}}
-  </div>
-  <div>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
-  </div>
-  </div>
-{{< /rawhtml >}}
--
