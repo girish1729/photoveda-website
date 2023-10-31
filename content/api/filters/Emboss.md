@@ -8,6 +8,9 @@ description: "Apply emboss filter on image"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Emboss" src="/filters/emboss.png"  >}}
+
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

@@ -8,6 +8,8 @@ description: "Apply Greyscale filter"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Greyscale" src="/filters/greyscale.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

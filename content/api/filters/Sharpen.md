@@ -8,6 +8,8 @@ description: "Sharpen image"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Sharpen" src="/filters/sharpen.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

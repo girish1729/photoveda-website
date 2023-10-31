@@ -8,6 +8,8 @@ description: "Apply Vibrance effect"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Vibrance" src="/filters/vibrance.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

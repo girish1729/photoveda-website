@@ -8,6 +8,8 @@ description: "Apply invert filter on image"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Invert" src="/filters/invert.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

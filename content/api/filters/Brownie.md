@@ -8,7 +8,10 @@ description: "Apply brownie filter on image"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Brownie" src="/filters/brownie.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
+
 
 | Parameter | Type | Description |
 |-----------|------|-------------|

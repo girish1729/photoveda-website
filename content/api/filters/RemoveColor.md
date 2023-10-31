@@ -8,6 +8,8 @@ description: "Remove color"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="RemoveColor" src="/filters/removecolor.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

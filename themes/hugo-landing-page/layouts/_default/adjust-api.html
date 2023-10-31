@@ -64,4 +64,24 @@ dark:active:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,2
     </div>
 </div>
 
+<script>
+runAPI = document.getElementById('runAPI');
+
+function showOutput(data) {
+    const element = document.querySelector('#rest-output');
+    element.innerHTML = '<pre>' + JSON.stringify(data, null, " ") + '</pre>';
+}
+
+runAPI.addEventListener("click", function() {
+    code = document.getElementById('codeSample');
+
+    var codeTxt = decodeHTML(code.innerHTML);
+
+    var lines = codeTxt.split('\n');
+    lines.splice(lines.length - 2, 0, " showOutput(data); ");
+    codeTxt = lines.join("\n");
+    eval(codeTxt);
+});
+
+</script>
 {{ end }}

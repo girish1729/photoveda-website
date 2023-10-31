@@ -6,70 +6,74 @@ draft: false
 description: "API documentation for adjustments, filters, frames, stickers and more"
 ---
 
-## Credit balance check
 
-### Curl code
-
-```bash
-curl -X GET --header 'Accept: application/json' \
-  --header 'APIKEY: INSERT_YOUR_API_KEY_HERE' \
-  'https://www.cutout.pro/api/v1/mySubscription'
-```
-### Python code
-
-```python
-import requests
-url = 'https://www.cutout.pro/api/v1/mySubscription'
-response = requests.get(
-url,
-headers={'APIKEY': apikey},
-)
-content = response.content.decode(encoding="utf-8")
-print(content)
-```
-### Node.js code
+## All endpoints
 
 
-```node.js
-import requests
-url = 'https://www.cutout.pro/api/v1/mySubscription'
-response = requests.get(
-url,
-headers={'APIKEY': apikey},
-)
-content = response.content.decode(encoding="utf-8")
-print(content)
-```
+## Frames and borders
 
-### Request parameters
+[AddFrame border](/frames-borders/addFrame)
 
-- Request URL: https://www.cutout.pro/api/v1/mySubscription
-- Request method: GET
-- Return type: application/json
+## Add sticker
+
+[addSticker](/stickers/addSticker)
+
+## Text overlay
+
+[textOverlay](/text/textOverlay)
+
+## Dimensions
+
+[ScaleImage](/dimensions/ScaleImage)
 
 
-|Parameter|Type|Value
-|-----------|------|-------------|
-|Content-Type|	string|	application/json;charset=UTF-8
-|APIKEY	| string|	Your API Key
+[Crop image](/transform/Crop)
 
-### Response 
+[Change Aspect Ratio ](/dimensions/changeAspectRatio)
 
-```json
-{
-  "code": 0,
-  "data": {
-    //Remaining amount of monthly subscription
-    "monthBalance": 0,
-    //Remaining credits for pay-as-you-go plans
-    "imageBalance": 0,
-    //Monthly subscription start date
-    "monthStartDate": "2020-01-01 00:00:00",
-    //Monthly subscription expiration date
-    "monthExpireDate": "2021-01-01 00:00:00"
-  },
-  "msg": null,
-  "time": 1618482003879
-}
-```
+## Adjusments
 
+[Adjust brightness](/adjust/Brightness)
+
+[Adjust saturation](/adjust/Saturation)
+
+[Adjust Contrast](/adjust/Contrast)
+
+[Adjust Gamma](/adjust/Gamma)                                                                      
+
+## Filters
+
+[Kodachrome fiter](/filters/Kodachrome)
+
+[BlendColor filter](/filters/BlendColor)                                                                      
+[HueRotate filter](/filters/HueRotate)                                                                      
+[Polaroid filter]( /filters/Polaroid)
+
+[Sepia filter](/filters/Sepia)                                                                      
+[Greyscale filter](/filters/Greyscale)
+
+[Brownie filter](/filters/Brownie)
+
+[Vintage filter](/filters/Vintage)
+
+[Technicolor filter](/filters/Technicolor)
+
+[Pixelate filter](/filters/Pixelate)
+
+[Invert filter](/filters/Invert)
+
+[Blur filter](/filters/Blur)                                                                      
+[Sharpen filter](/filters/Sharpen)
+
+[Emboss filter](/filters/Emboss)
+
+[RemoveColor filter](/filters/RemoveColor)                                                                      
+[Vibrance filter](/filters/Vibrance)                                                                      
+
+## Misc
+
+[Generate Thumbnail](/misc/Thumbnail)
+
+[Dump EXIF data](/misc/exifData)
+
+[Rotate image](/transform/Rotate)

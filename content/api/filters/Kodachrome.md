@@ -8,6 +8,8 @@ description: "Apply Kodachrome filter"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Kodachrome" src="/filters/kodachrome.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

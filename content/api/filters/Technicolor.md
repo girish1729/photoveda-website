@@ -8,6 +8,8 @@ description: "Apply Technicolor filter"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Technicolor" src="/filters/technicolor.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

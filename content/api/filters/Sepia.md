@@ -8,6 +8,8 @@ description: "Apply Sepia filter API"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Sepia" src="/filters/sepia.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

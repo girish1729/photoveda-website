@@ -8,6 +8,8 @@ description: "Apply blur effect"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Blur" src="/filters/blur.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

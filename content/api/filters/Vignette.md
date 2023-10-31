@@ -8,6 +8,8 @@ description: "Apply Vignette filter on image "
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Vignette" src="/filters/vignette.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

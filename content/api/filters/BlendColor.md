@@ -8,6 +8,9 @@ description: "Apply Blend color filter"
 
 [Get API Key](/api/developer-key)
 
+
+{{< figure title="Blendcolor" src="/filters/blendcolor.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

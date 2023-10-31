@@ -18,10 +18,10 @@ apilist:
     description: >
              Transformation API 
     link: "/api/transformations"
-  - name: "Shapes"
+  - name: "Text overlay"
     description: >
-             Shapes API
-    link: "/api/shapes"
+             Text overlay API
+    link: "/api/textoverlay"
   - name: "Stickers"
     description: >
              Stickers API
@@ -30,34 +30,32 @@ apilist:
     description: >
              Change dimensions API
     link: "/api/dimensions"
-  - name: "Overlays"
+  - name: "Miscellaneous"
     description: >
-             Overlay text API
-    link: "/api/overlays"
-  - name: "Text Overlay"
-    description: >
-             Overlay text API
-    link: "/api/textoverlay"
+             Miscellaneous
+    link: "/api/misc"
 adjustlist:
 
   - name: Brightness
     link: "/api/adjustments/brightness"
-  - name: Color Temperature
-    link: "/api/adjustments/color-temperature"
-  - name: contrast
+#  - name: Color Temperature
+#    link: "/api/adjustments/color-temperature"
+  - name: Contrast
     link: "/api/adjustments/contrast"
-  - name: Exposure
-    link: "/api/adjustments/exposure"
-  - name: Lighting
-    link: "/api/adjustments/lighting"
-  - name: Shadows
-    link: "/api/adjustments/shadows"
+  - name: Gamma
+    link: "/api/adjustments/gamma"
+  - name: Saturation
+    link: "/api/adjustments/saturation"
+#  - name: Exposure
+#    link: "/api/adjustments/exposure"
+#  - name: Lighting
+#    link: "/api/adjustments/lighting"
+#  - name: Shadows
+#    link: "/api/adjustments/shadows"
 filterlist:
 
   - name: BlendColor
     link: "/api/filters/blendcolor"
-  - name: BlendImage
-    link: "/api/filters/blendimage"
   - name: Blur
     link: "/api/filters/blur"
   - name: Brownie
@@ -104,4 +102,19 @@ filterlist:
     link: "/api/filters/vignette"
   - name: Vintage
     link: "/api/filters/vintage"
+misc:
+  - name: EXIF
+    link: "/api/misc/exif"
+  - name: Thumbnail
+    link: "/api/misc/vintage"
+dimensions:
+  - name: Scale
+    link: "/api/filters/vintage"
+  - name: Aspect ratio
+    link: "/api/filters/vintage"
+  - name: Crop
+    link: "/api/filters/vintage"
+  - name: Rotate
+    link: "/api/filters/vintage"
+
 ---

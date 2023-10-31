@@ -8,6 +8,8 @@ description: "Apply Pixelate on image"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="Pixelate" src="/filters/pixelate.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

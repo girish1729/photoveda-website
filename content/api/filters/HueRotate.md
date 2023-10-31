@@ -8,6 +8,8 @@ description: "Hue rotate image"
 
 [Get API Key](/api/developer-key)
 
+{{< figure title="HueRotate" src="/filters/huerotate.png"  >}}
+
 ## 1a. Adjust gamma (Binary stream)
 
 | Parameter | Type | Description |

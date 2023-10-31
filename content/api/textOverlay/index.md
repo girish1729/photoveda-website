@@ -90,3 +90,37 @@ fetch('https://reqres.in/api/articles', requestOptions)
  </div>
 {{< /rawhtml >}}
 
+
+## Sample text designs
+
+{{< rawhtml >}}
+<div class="grid gap-x-6 md:grid-cols-2 lg:grid-cols-2 xl:gap-x-12">
+<div>
+{{< /rawhtml >}}
+
+- {{< figure title="Text2" src="/textStyles/text2.png" class="textStyle" >}}
+- {{< figure title="Text3" src="/textStyles/text3.png" class="textStyle" >}}
+- {{< figure title="Text4" src="/textStyles/text4.png" class="textStyle" >}}
+- {{< figure title="Text5" src="/textStyles/text5.png" class="textStyle" >}}
+- {{< figure title="Text6" src="/textStyles/text6.png" class="textStyle" >}}
+
+{{< rawhtml >}}
+  </div>
+  <div>
+{{< /rawhtml >}}
+- {{< figure title="Text7" src="/textStyles/text7.png" class="textStyle" >}}
+- {{< figure title="Text8" src="/textStyles/text8.png" class="textStyle" >}}
+- {{< figure title="Text9" src="/textStyles/text9.png" class="textStyle" >}}
+- {{< figure title="Text10" src="/textStyles/text10.png" class="textStyle" >}}
+- {{< figure title="Text11" src="/textStyles/text11.png" class="textStyle" >}}
+
+{{< rawhtml >}}
+  </div>
+  <div>
+{{< /rawhtml >}}
+
+{{< rawhtml >}}
+  </div>
+  </div>
+{{< /rawhtml >}}
+-
