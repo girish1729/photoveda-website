@@ -27,15 +27,20 @@
         <main role="main" class="w-full sm:w-2/3 md:w-3/4 pt-1 px-2">
             <hr class="my-5">
             <section class="min-h-screen" id="apibody">
+	  {{ range where .Site.Pages "Type" "api-header" }}
+	    <section>
+		{{ .Content }}
+	    </section>
+	  {{ end }}
                 <h1 class="text-2xl mt-5">{{ .Title }} </h1>
 		{{ .Content }}
             </section>
-
 	  {{ range where .Site.Pages "Type" "api-response" }}
 	    <section>
 		{{ .Content }}
 	    </section>
 	  {{ end }}
+
 <center>
      <button id='runAPI' type="button"
               class="inline-block rounded bg-blue-500 px-12 pt-3.5
