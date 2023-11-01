@@ -7,10 +7,10 @@ description: "Apply Greyscale filter"
 ---
 
 
-{{< figure title="Greyscale" src="/filters/greyscale.png"  >}}
 
 ## Greyscale filter
 
+{{< figure title="Greyscale" src="/filters/greyscale.png"  >}}
 
 ### Sample code
 

@@ -7,10 +7,10 @@ description: "Apply invert filter on image"
 ---
 
 
-{{< figure title="Invert" src="/filters/invert.png"  >}}
 
 ## Invert filter
 
+{{< figure title="Invert" src="/filters/invert.png"  >}}
 
 ### Sample code
 

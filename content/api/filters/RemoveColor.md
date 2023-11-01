@@ -7,10 +7,10 @@ description: "Remove color"
 ---
 
 
-{{< figure title="RemoveColor" src="/filters/removecolor.png"  >}}
 
 ## RemoveColor filter
 
+{{< figure title="RemoveColor" src="/filters/removecolor.png"  >}}
 
 ### Sample code
 

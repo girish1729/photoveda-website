@@ -1,0 +1,26 @@
+
+{{ define "main" }}
+  <link rel="stylesheet"  href="/css/normalize.min.css">
+    {{ partial "navbar.html" . }}
+    <div id="{{ .Title }}" class="w-full flex flex-col justify-center items-center">
+        <div class="self-center w-full sm:w-2/3 xl:w-1/2 px-8 sm:px:0 pt-4">
+            <h1 class="font-bold uppercase tracking-widest text-gray-800 text-2xl mb-4">{{ .Title }}</h1>
+ <meta
+     name="description"
+     content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if
+.Site.Params.Description }}{{ .Site.Params.Description }}{{ else
+}}Something hardcoded{{ end }}"
+   />
+ 
+ <div class="w-full flex flex-col justify-center items-center">
+   {{ range .Pages }}
+    <section class="self-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0 pt-16">
+<a class='no-underline' href="{{ .Permalink }}" title="{{ .Title }}">
+	<h2 class="text-3xl no-underline"> {{ .Title }}</h2>
+	<img src="{{ .Params.featureImage | absURL }}" alt="{{ .RelPermalink }}" />
+		<span class="date">{{.Date.Format "2 Jan 2006"}}</a>
+     </section>
+    {{ end }}
+ </div>
+{{ end }}
+

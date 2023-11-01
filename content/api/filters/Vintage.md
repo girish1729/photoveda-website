@@ -7,10 +7,11 @@ description: "Apply Vintage filter"
 ---
 
 
-{{< figure title="Vintage" src="/filters/vintage.png"  >}}
 
 
 ## Vintage filter
+
+{{< figure title="Vintage" src="/filters/vintage.png"  >}}
 
 ### Sample code
 

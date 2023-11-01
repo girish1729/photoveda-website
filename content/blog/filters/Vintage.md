@@ -1,13 +1,14 @@
 ---
 title: "Vintage effect"
 date: "2023-02-16T15:21:54+05:30"
-featureImage: "blog/filters/image-adjustments.jpg"
+featureImage: "filters/vintage.png"
+featured: true
 draft: false
 weight: 3
 ---
 
 # Vintage effect
 
-But over time I could fall in love and finish this work.
+{{< figure title="Vintage" src="/filters/vintage.png"  >}}
 
 [Back to filters blog](/blog/filters)

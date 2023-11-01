@@ -7,11 +7,11 @@ description: "Apply Vignette filter on image "
 ---
 
 
-{{< figure title="Vignette" src="/filters/vignette.png"  >}}
 
 
 ## Vignette filter
 
+{{< figure title="Vignette" src="/filters/vignette.png"  >}}
 
 ### Sample code
 

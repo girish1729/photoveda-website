@@ -7,12 +7,12 @@ description: "Apply Vibrance effect"
 ---
 
 
-{{< figure title="Vibrance" src="/filters/vibrance.png"  >}}
 
 
 
 ## Vibrance filter
 
+{{< figure title="Vibrance" src="/filters/vibrance.png"  >}}
 
 ### Sample code
 

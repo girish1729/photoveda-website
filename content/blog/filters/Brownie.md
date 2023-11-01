@@ -1,12 +1,15 @@
 ---
-title: "Technicolor filter"
+title: "Brownie filter"
 date: "2023-02-16T15:21:54+05:30"
-featureImage: "blog/filters/image-adjustments.jpg"
+featured: true
+featureImage: "filters/brownie.png"
 draft: false
 weight: 3
 ---
 
-# Technicolor filter
+# Brownie filter
+
+{{< figure title="Brownie" src="/filters/brownie.png"  >}}
 
 But over time I could fall in love and finish this work.
 

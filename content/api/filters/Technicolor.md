@@ -7,10 +7,10 @@ description: "Apply Technicolor filter"
 ---
 
 
-{{< figure title="Technicolor" src="/filters/technicolor.png"  >}}
 
 ## Technicolor filter
 
+{{< figure title="Technicolor" src="/filters/technicolor.png"  >}}
 
 ### Sample code
 

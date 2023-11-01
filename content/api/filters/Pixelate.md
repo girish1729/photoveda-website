@@ -6,11 +6,11 @@ draft: false
 description: "Apply Pixelate on image"
 ---
 
-{{< figure title="Pixelate" src="/filters/pixelate.png"  >}}
 
 
 ## Pixelate filter
 
+{{< figure title="Pixelate" src="/filters/pixelate.png"  >}}
 
 ### Sample code
 

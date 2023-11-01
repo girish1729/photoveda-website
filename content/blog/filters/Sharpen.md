@@ -1,13 +1,14 @@
 ---
 title: "Sharpen image"
 date: "2023-02-16T15:21:54+05:30"
-featureImage: "blog/filters/image-adjustments.jpg"
+featureImage: "filters/sharpen.png"
+featured: true
 draft: false
 weight: 3
 ---
 
 # Sharpen filter
 
-React is a very popular web development framework from Facebook.
+{{< figure title="Sharpen" src="/filters/sharpen.png"  >}}
 
 [Back to filters blog](/blog/filters)

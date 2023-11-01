@@ -7,11 +7,11 @@ description: "Sharpen image"
 ---
 
 
-{{< figure title="Sharpen" src="/filters/sharpen.png"  >}}
 
 
 ## Sharpen filter
 
+{{< figure title="Sharpen" src="/filters/sharpen.png"  >}}
 
 ### Sample code
 

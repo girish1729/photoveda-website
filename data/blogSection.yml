@@ -1,6 +1,8 @@
 ---
-title: "Technical docs"
+enable: true
+title: "Blog articles"
 subtitle: >
-          Photo editor on steroids
-buttonTarget: docs
+          I have written many articles in the past 20 years of tech
+          life.
+buttonTarget: blog
 ---

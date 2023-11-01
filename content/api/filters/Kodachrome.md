@@ -7,10 +7,10 @@ description: "Apply Kodachrome filter"
 ---
 
 
-{{< figure title="Kodachrome" src="/filters/kodachrome.png"  >}}
 
 ## Kodachrome filter
 
+{{< figure title="Kodachrome" src="/filters/kodachrome.png"  >}}
 
 ### Sample code
 

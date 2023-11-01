@@ -7,10 +7,10 @@ description: "Apply Sepia filter API"
 ---
 
 
-{{< figure title="Sepia" src="/filters/sepia.png"  >}}
 
 ## Sepia filter
 
+{{< figure title="Sepia" src="/filters/sepia.png"  >}}
 
 ### Sample code
 

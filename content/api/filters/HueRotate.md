@@ -7,10 +7,10 @@ description: "Hue rotate image"
 ---
 
 
-{{< figure title="HueRotate" src="/filters/huerotate.png"  >}}
 
 ## HueRotate filter
 
+{{< figure title="HueRotate" src="/filters/huerotate.png"  >}}
 
 ### Sample code
 
