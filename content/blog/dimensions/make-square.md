@@ -8,7 +8,6 @@ weight: 3
 
 # Make a square image
 
-React is a very popular web development framework from Facebook.
 
 
 [Back to dimensions blog](/blog/dimensions)

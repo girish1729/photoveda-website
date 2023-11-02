@@ -8,6 +8,5 @@ weight: 3
 
 # Change dimensions
 
-React is a very popular web development framework from Facebook.
 
 [Back to dimensions blog](/blog/dimensions)

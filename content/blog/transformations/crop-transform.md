@@ -6,10 +6,7 @@ draft: false
 weight: 3
 ---
 
-# React plugin development
+# How to crop an image with API or online tool
 
-React is a very popular web development framework from Facebook.
-
-But over time I could fall in love and finish this work.
 
 [Back to blog](/blog/transformations)

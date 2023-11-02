@@ -6,8 +6,7 @@ draft: false
 weight: 3
 ---
 
-# React plugin development
+# Some emojis you can add to images
 
-React is a very popular web development framework from Facebook.
 
 [Back to sticker blog](/blog/stickers)

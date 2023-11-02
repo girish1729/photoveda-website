@@ -2,6 +2,9 @@
 {{ define "main" }}
   <link rel="stylesheet"  href="/css/normalize.min.css">
     {{ partial "navbar.html" . }}
+<div class="container mx-auto">
+    <div class="flex flex-row flex-wrap mt-16 py-4">
+
   <h1>{{.Title}}</h1>
  <div class="w-full flex flex-col justify-center items-center">
    {{ range .Pages }}
@@ -13,5 +16,8 @@
      </section>
     {{ end }}
  </div>
+
+ </div>
+</div>
 {{ end }}
 

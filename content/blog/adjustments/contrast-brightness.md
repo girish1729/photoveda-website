@@ -8,7 +8,6 @@ weight: 3
 
 # Contrast and brightness
 
-But over time I could fall in love and finish this work.
 
 [Back to adjustments blog](/blog/adjustments)
 

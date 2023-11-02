@@ -9,6 +9,4 @@ weight: 3
 # Some sticker demos
 
 
-But over time I could fall in love and finish this work.
-
 [Back to sticker blog](/blog/stickers)

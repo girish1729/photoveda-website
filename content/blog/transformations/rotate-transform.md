@@ -8,6 +8,6 @@ weight: 3
 
 # Rotate images
 
-React is a very popular web development framework from Facebook.
+You can rotate an image using Photoveda API or the online tool.
 
 [Back to blog](/blog/transformations)

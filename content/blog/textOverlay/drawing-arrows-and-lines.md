@@ -8,9 +8,5 @@ weight: 3
 
 # Arrows and lines
 
-In developing a plugin or REACT I faced some challenges in the beginning
-when my learning was not adequate.
-
-But over time I could fall in love and finish this work.
 
 [Back to Shapes blog](/blog/shapes)

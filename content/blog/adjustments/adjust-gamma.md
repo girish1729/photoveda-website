@@ -8,6 +8,4 @@ weight: 3
 
 # Gamma correction
 
-React is a very popular web development fraBut over time I could fall in love and finish this work.
-
 [Back to adjustments blog](/blog/adjustments)

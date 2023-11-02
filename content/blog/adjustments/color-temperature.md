@@ -9,8 +9,6 @@ weight: 3
 # Color temperature
 
 
-It is used for highly responsive web applications that use JSX code for
-efficiency and fewer DOM updates.
 
 [Back to adjustments blog](/blog/adjustments)
 
