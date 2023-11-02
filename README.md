@@ -40,6 +40,7 @@ Get payment from [this place](https://extensionpay.com)
 - [photostitcher](https://photostitcher.com)
 - [img.ly](https://img.ly)
 - [pencilsketch](https://pencilsketch.imageonline.co)
+- [gifgit](https://gifgit.com)
 
 ## Product comparison page tips
 
