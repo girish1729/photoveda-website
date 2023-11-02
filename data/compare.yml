@@ -6,12 +6,10 @@ competition:
     link: "comparison#cutout"
   - name: img2go
     link: "comparison#img2go"
-  - name: watermarkremover
-    link: "comparison#watermarkremover"
-  - name: veed.io
-    link: "comparison#veedio"
   - name: Fotor
     link: "comparison#fotor"
+  - name: imgur
+    link: "comparison#imgur"
   - name: Pixlr
     link: "comparison#pixlr"
   - name: Media.io
@@ -38,8 +36,6 @@ competition:
     link: "comparison#resizepixel"
   - name: colourise
     link: "comparison#colourise"
-  - name: pick.photo
-    link: 'comparison#pickphoto'
   - name: photoscissors
     link: "comparison#photoscissors"
   - name: iresizer

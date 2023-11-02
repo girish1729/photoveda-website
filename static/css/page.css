@@ -1175,9 +1175,6 @@ video {
 .pb-3\.5 {
   padding-bottom: 0.875rem;
 }
-.pb-4 {
-  padding-bottom: 1rem;
-}
 .pr-2 {
   padding-right: 0.5rem;
 }
@@ -1329,10 +1326,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
-.text-neutral-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 229 229 / var(--tw-text-opacity));
-}
 .text-neutral-50 {
   --tw-text-opacity: 1;
   color: rgb(250 250 250 / var(--tw-text-opacity));
@@ -1477,6 +1470,10 @@ video {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+html {
+	scroll-padding-top: 7rem;
+}
 
 body {
   font-family: 'Inconsolata';
