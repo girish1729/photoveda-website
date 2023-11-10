@@ -1,6 +1,6 @@
 {
-  "name": "progress-up.live",
-  "version": "0.0.20",
+  "name": "photoveda.pro",
+  "version": "1.0.20",
   "description": "",
   "main": "index.html",
   "scripts": {
@@ -9,17 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/girish1729/progress-up.git"
+    "url": "git+https://github.com/girish1729/photoveda-website.git"
   },
-  "author": "girish@spamcheetah.com",
+  "author": "girish@photoveda.pro",
   "license": "MIT",
-  "homepage": "https://progress-up.live",
+  "homepage": "https://photoveda.pro",
   "devDependencies": {
     "autoprefixer": "*",
     "postcss-cli": "*",
     "tailwindcss": "*"
-  },
-  "dependencies": {
-    "lightgallery": "^2.7.0"
   }
 }
