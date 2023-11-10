@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313/"
+baseurl = "https://phototoveda.pro/"
 languageCode = "en"
 publishdir = "public"
 canonifyUrls = true
