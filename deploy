@@ -1,6 +1,7 @@
 #!/bin/sh
 
 git pull
+perl -pi -e 's#baseurl = "/"#baseurl = "https://photoveda.pro"#' config.toml
 rm -rf resources
 rm -rf /var/www/htdocs/*
 hugo --gc --minify --destination /var/www/htdocs
